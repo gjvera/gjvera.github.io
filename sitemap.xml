@@ -3,12 +3,68 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://gabrieljosephvera.com/school/asu/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gabrieljosephvera.com/school/santiago/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gabrieljosephvera.com/school/esperanza/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gabrieljosephvera.com/post/about_me/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gabrieljosephvera.com/ipsum/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://gabrieljosephvera.com/project/check_back/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://gabrieljosephvera.com/categories/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://gabrieljosephvera.com/categories/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://gabrieljosephvera.com/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://gabrieljosephvera.com/post/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://gabrieljosephvera.com/project/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://gabrieljosephvera.com/school/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
     <priority>0</priority>
   </url>
   
