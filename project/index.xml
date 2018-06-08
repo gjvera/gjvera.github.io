@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Gabriel Vera</title>
-    <link>https://gabrieljosephvera.com/project/</link>
+    <link>https://www.gabrieljosephvera.com/project/</link>
     <description>Recent content in Projects on Gabriel Vera</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Oct 2017 21:28:43 -0500</lastBuildDate>
     
-	<atom:link href="https://gabrieljosephvera.com/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.gabrieljosephvera.com/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Project</title>
-      <link>https://gabrieljosephvera.com/project/check_back/</link>
+      <link>https://www.gabrieljosephvera.com/project/check_back/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://gabrieljosephvera.com/project/check_back/</guid>
+      <guid>https://www.gabrieljosephvera.com/project/check_back/</guid>
       <description>Check Back Soon writeups coming</description>
     </item>
     
