@@ -18,7 +18,7 @@
   </url>
   
   <url>
-    <loc>https://www.gabrieljosephvera.com/about_me/</loc>
+    <loc>https://www.gabrieljosephvera.com/post/about_me/</loc>
     <lastmod>2017-10-31T21:28:43-05:00</lastmod>
   </url>
   
@@ -46,6 +46,12 @@
   
   <url>
     <loc>https://www.gabrieljosephvera.com/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gabrieljosephvera.com/post/</loc>
     <lastmod>2017-10-31T21:28:43-05:00</lastmod>
     <priority>0</priority>
   </url>
