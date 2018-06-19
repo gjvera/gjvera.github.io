@@ -12,12 +12,24 @@
     
     
     <item>
-      <title>Project</title>
-      <link>https://www.gabrieljosephvera.com/project/check_back/</link>
+      <title>Project Euler</title>
+      <link>https://www.gabrieljosephvera.com/project/project_euler/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project/check_back/</guid>
-      <description>Check Back Soon writeups coming</description>
+      <guid>https://www.gabrieljosephvera.com/project/project_euler/</guid>
+      <description>A current ongoing project that has piqued my interest is Project Euler . Essentially it&amp;rsquo;s a series of math problems for which you need to devise an algorithm and a program to compute the solution.
+I&amp;rsquo;ve been using it as a way to ramp up my skills in other languages that I am not comfortable with such as, Perl 6 , Clojure , and Ruby . I chose these languages for different reasons.</description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>https://www.gabrieljosephvera.com/project/website/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project/website/</guid>
+      <description>This website is my biggest personal project that I have undertaken.
+It is hosted with Github Pages , which by far was the best option for my purpose. I wanted to have a website where I could showcase some projects that would show my skills and what tools and languages I am currently looking at.
+As Github pages only hosts static sites I had to find the best tool to generate a static site that was presentable.</description>
     </item>
     
   </channel>

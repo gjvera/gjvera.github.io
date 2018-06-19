@@ -23,12 +23,52 @@
   </url>
   
   <url>
+    <loc>https://www.gabrieljosephvera.com/project_files/clojure/clojure/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.gabrieljosephvera.com/ipsum/</loc>
     <lastmod>2017-10-31T21:28:43-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.gabrieljosephvera.com/project/check_back/</loc>
+    <loc>https://www.gabrieljosephvera.com/project_files/perl6/perl6/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.gabrieljosephvera.com/project_files/clojure/problem1cl/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.gabrieljosephvera.com/project_files/perl6/problem1p6/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.gabrieljosephvera.com/project_files/ruby/problem1p6/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.gabrieljosephvera.com/project/project_euler/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.gabrieljosephvera.com/project_files/ruby/perl6/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.gabrieljosephvera.com/post/test/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.gabrieljosephvera.com/project/website/</loc>
     <lastmod>2017-10-31T21:28:43-05:00</lastmod>
   </url>
   
@@ -52,6 +92,12 @@
   
   <url>
     <loc>https://www.gabrieljosephvera.com/post/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gabrieljosephvera.com/project_files/</loc>
     <lastmod>2017-10-31T21:28:43-05:00</lastmod>
     <priority>0</priority>
   </url>

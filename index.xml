@@ -52,6 +52,15 @@ Currently working at Connexta in Phoenix, AZ.</description>
     </item>
     
     <item>
+      <title>Clojure</title>
+      <link>https://www.gabrieljosephvera.com/project_files/clojure/clojure/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/clojure/clojure/</guid>
+      <description>Problem 1</description>
+    </item>
+    
+    <item>
       <title>Ipsum</title>
       <link>https://www.gabrieljosephvera.com/ipsum/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
@@ -61,12 +70,78 @@ Currently working at Connexta in Phoenix, AZ.</description>
     </item>
     
     <item>
-      <title>Project</title>
-      <link>https://www.gabrieljosephvera.com/project/check_back/</link>
+      <title>Perl 6</title>
+      <link>https://www.gabrieljosephvera.com/project_files/perl6/perl6/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project/check_back/</guid>
-      <description>Check Back Soon writeups coming</description>
+      <guid>https://www.gabrieljosephvera.com/project_files/perl6/perl6/</guid>
+      <description>Problem 1</description>
+    </item>
+    
+    <item>
+      <title>Problem 1 in Clojure</title>
+      <link>https://www.gabrieljosephvera.com/project_files/clojure/problem1cl/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/clojure/problem1cl/</guid>
+      <description>1(ns problem1.core) 2 3(defn mod3or5? 4 [x] 5 (cond 6 (= (mod x 3) 0) x 7 (= (mod x 5) 0) x 8 :else 0)) 9 10(defn -main 11 [] 12 (println (reduce + (map mod3or5? (range 1 1000)) ))) </description>
+    </item>
+    
+    <item>
+      <title>Problem 1 in Perl 6</title>
+      <link>https://www.gabrieljosephvera.com/project_files/perl6/problem1p6/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/perl6/problem1p6/</guid>
+      <description>1#Find the sum of all the multiples of 3 or 5 below 1000 2say [+] ( 1 .. ^ 1000 ) . grep( { !( $_ % ( 3 &amp;amp; 5 ) ) } ); </description>
+    </item>
+    
+    <item>
+      <title>Problem 1 in Perl 6</title>
+      <link>https://www.gabrieljosephvera.com/project_files/ruby/problem1p6/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/ruby/problem1p6/</guid>
+      <description>1sum = 0; 2i = 0; 3loop do 4 if i == 1000 5 break 6 end 7 if i % 3 == 0 || i % 5 == 0 8 sum += i 9 end 10 i += 1 11end 12puts &amp;#34;#{sum}&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>Project Euler</title>
+      <link>https://www.gabrieljosephvera.com/project/project_euler/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project/project_euler/</guid>
+      <description>A current ongoing project that has piqued my interest is Project Euler . Essentially it&amp;rsquo;s a series of math problems for which you need to devise an algorithm and a program to compute the solution.
+I&amp;rsquo;ve been using it as a way to ramp up my skills in other languages that I am not comfortable with such as, Perl 6 , Clojure , and Ruby . I chose these languages for different reasons.</description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://www.gabrieljosephvera.com/project_files/ruby/perl6/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/ruby/perl6/</guid>
+      <description>Problem 1</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://www.gabrieljosephvera.com/post/test/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/post/test/</guid>
+      <description>1(defn is-prime? 2 [x] 3 (if (= x 0) false 4 (loop [iter 2 top (int (Math/sqrt x))] 5 (if (&amp;gt; iter top) 6 true 7 (if (= 0 (mod x iter)) 8 false 9(recur (inc iter) top)))))) 10 11(defn -main 12 [] 13 (println (reduce + (filter is-prime? (range 2000000))))) </description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>https://www.gabrieljosephvera.com/project/website/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project/website/</guid>
+      <description>This website is my biggest personal project that I have undertaken.
+It is hosted with Github Pages , which by far was the best option for my purpose. I wanted to have a website where I could showcase some projects that would show my skills and what tools and languages I am currently looking at.
+As Github pages only hosts static sites I had to find the best tool to generate a static site that was presentable.</description>
     </item>
     
   </channel>

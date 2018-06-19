@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project_files on Gabriel Vera</title>
+    <link>https://www.gabrieljosephvera.com/project_files/</link>
+    <description>Recent content in Project_files on Gabriel Vera</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Oct 2017 21:28:43 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.gabrieljosephvera.com/project_files/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Clojure</title>
+      <link>https://www.gabrieljosephvera.com/project_files/clojure/clojure/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/clojure/clojure/</guid>
+      <description>Problem 1</description>
+    </item>
+    
+    <item>
+      <title>Perl 6</title>
+      <link>https://www.gabrieljosephvera.com/project_files/perl6/perl6/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/perl6/perl6/</guid>
+      <description>Problem 1</description>
+    </item>
+    
+    <item>
+      <title>Problem 1 in Clojure</title>
+      <link>https://www.gabrieljosephvera.com/project_files/clojure/problem1cl/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/clojure/problem1cl/</guid>
+      <description>1(ns problem1.core) 2 3(defn mod3or5? 4 [x] 5 (cond 6 (= (mod x 3) 0) x 7 (= (mod x 5) 0) x 8 :else 0)) 9 10(defn -main 11 [] 12 (println (reduce + (map mod3or5? (range 1 1000)) ))) </description>
+    </item>
+    
+    <item>
+      <title>Problem 1 in Perl 6</title>
+      <link>https://www.gabrieljosephvera.com/project_files/perl6/problem1p6/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/perl6/problem1p6/</guid>
+      <description>1#Find the sum of all the multiples of 3 or 5 below 1000 2say [+] ( 1 .. ^ 1000 ) . grep( { !( $_ % ( 3 &amp;amp; 5 ) ) } ); </description>
+    </item>
+    
+    <item>
+      <title>Problem 1 in Perl 6</title>
+      <link>https://www.gabrieljosephvera.com/project_files/ruby/problem1p6/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/ruby/problem1p6/</guid>
+      <description>1sum = 0; 2i = 0; 3loop do 4 if i == 1000 5 break 6 end 7 if i % 3 == 0 || i % 5 == 0 8 sum += i 9 end 10 i += 1 11end 12puts &amp;#34;#{sum}&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://www.gabrieljosephvera.com/project_files/ruby/perl6/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/ruby/perl6/</guid>
+      <description>Problem 1</description>
+    </item>
+    
+  </channel>
+</rss>
