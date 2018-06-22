@@ -48,12 +48,39 @@
     </item>
     
     <item>
-      <title>Problem 1 in Perl 6</title>
-      <link>https://www.gabrieljosephvera.com/project_files/ruby/problem1p6/</link>
+      <title>Problem 1 in Ruby</title>
+      <link>https://www.gabrieljosephvera.com/project_files/ruby/problem1rb/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/ruby/problem1p6/</guid>
+      <guid>https://www.gabrieljosephvera.com/project_files/ruby/problem1rb/</guid>
       <description>1sum = 0; 2i = 0; 3loop do 4 if i == 1000 5 break 6 end 7 if i % 3 == 0 || i % 5 == 0 8 sum += i 9 end 10 i += 1 11end 12puts &amp;#34;#{sum}&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>Problem 2 in Clojure</title>
+      <link>https://www.gabrieljosephvera.com/project_files/clojure/problem2cl/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/clojure/problem2cl/</guid>
+      <description>1(ns problem2.core) 2 3(def gen-fib 4 (lazy-cat [0 1] (map + (rest gen-fib) gen-fib))) 5 6(defn -main 7 [] 8 (println (reduce + (filter even? (take-while (partial &amp;gt; 4000000) gen-fib))))) </description>
+    </item>
+    
+    <item>
+      <title>Problem 2 in Perl 6</title>
+      <link>https://www.gabrieljosephvera.com/project_files/perl6/problem2p6/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/perl6/problem2p6/</guid>
+      <description>1say( 1, 1, *+ * ... ^ *&amp;gt; 4000000 ) . grep( *% % 2 ) . sum; </description>
+    </item>
+    
+    <item>
+      <title>Problem 2 in Perl 6</title>
+      <link>https://www.gabrieljosephvera.com/project_files/ruby/problem2rb/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/ruby/problem2rb/</guid>
+      <description>1sum_even = 0; 2term_prev = 1; 3term_current = 1; 4loop do 5 if term_current &amp;gt;= 4000000 6 break 7 end 8 temp = term_current; 9 term_current = term_current + term_prev; 10 term_prev = temp; 11 if term_current % 2 == 0 12 sum_even += term_current; 13 end 14end 15puts &amp;#34;#{sum_even}&amp;#34; </description>
     </item>
     
     <item>

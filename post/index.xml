@@ -21,14 +21,5 @@
 Currently working at Connexta in Phoenix, AZ.</description>
     </item>
     
-    <item>
-      <title>Test</title>
-      <link>https://www.gabrieljosephvera.com/post/test/</link>
-      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
-      
-      <guid>https://www.gabrieljosephvera.com/post/test/</guid>
-      <description>1(defn is-prime? 2 [x] 3 (if (= x 0) false 4 (loop [iter 2 top (int (Math/sqrt x))] 5 (if (&amp;gt; iter top) 6 true 7 (if (= 0 (mod x iter)) 8 false 9(recur (inc iter) top)))))) 10 11(defn -main 12 [] 13 (println (reduce + (filter is-prime? (range 2000000))))) </description>
-    </item>
-    
   </channel>
 </rss>
