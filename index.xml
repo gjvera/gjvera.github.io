@@ -52,21 +52,13 @@ Currently working at Connexta in Phoenix, AZ.</description>
     </item>
     
     <item>
-      <title>Clojure</title>
-      <link>https://www.gabrieljosephvera.com/project_files/clojure/clojure/</link>
+      <title>Problem 1</title>
+      <link>https://www.gabrieljosephvera.com/project_files/problem1/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/clojure/clojure/</guid>
-      <description>Problem 1</description>
-    </item>
-    
-    <item>
-      <title>Perl 6</title>
-      <link>https://www.gabrieljosephvera.com/project_files/perl6/perl6/</link>
-      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
-      
-      <guid>https://www.gabrieljosephvera.com/project_files/perl6/perl6/</guid>
-      <description>Problem 1</description>
+      <guid>https://www.gabrieljosephvera.com/project_files/problem1/</guid>
+      <description>Ruby 1sum = 0; 2i = 0; 3loop do 4 if i == 1000 5 break 6 end 7 if i % 3 == 0 || i % 5 == 0 8 sum += i 9 end 10 i += 1 11end 12puts &amp;#34;#{sum}&amp;#34;
+Clojure 1(ns problem1.core) 2 3(defn mod3or5? 4 [x] 5 (cond 6 (= (mod x 3) 0) x 7 (= (mod x 5) 0) x 8 :else 0)) 9 10(defn -main 11 [] 12 (println (reduce + (map mod3or5?</description>
     </item>
     
     <item>
@@ -84,7 +76,7 @@ Currently working at Connexta in Phoenix, AZ.</description>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
       <guid>https://www.gabrieljosephvera.com/project_files/perl6/problem1p6/</guid>
-      <description>1#Find the sum of all the multiples of 3 or 5 below 1000 2say [+] ( 1 .. ^ 1000 ) . grep( { !( $_ % ( 3 &amp;amp; 5 ) ) } ); </description>
+      <description>1#Find the sum of all the multiples of 3 or 5 below 1000 2say [+] ( 1 .. ^ 1000 ).grep({ !($_ % ( 3 &amp;amp; 5 ))}); </description>
     </item>
     
     <item>
@@ -97,12 +89,23 @@ Currently working at Connexta in Phoenix, AZ.</description>
     </item>
     
     <item>
+      <title>Problem 2</title>
+      <link>https://www.gabrieljosephvera.com/project_files/problem2/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/problem2/</guid>
+      <description>Ruby 1sum_even = 0; 2term_prev = 1; 3term_current = 1; 4loop do 5 if term_current &amp;gt;= 4000000 6 break 7 end 8 temp = term_current; 9 term_current = term_current + term_prev; 10 term_prev = temp; 11 if term_current % 2 == 0 12 sum_even += term_current; 13 end 14end 15puts &amp;#34;#{sum_even}&amp;#34;
+Clojure 1(ns problem2.core) 2;generate a list of the fibonacci numbers 3(def gen-fib 4 (lazy-cat [0 1] (map + (rest gen-fib) gen-fib))) 5 6(defn -main 7 [] 8 (println (reduce + (filter even?</description>
+    </item>
+    
+    <item>
       <title>Problem 2 in Clojure</title>
       <link>https://www.gabrieljosephvera.com/project_files/clojure/problem2cl/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
       <guid>https://www.gabrieljosephvera.com/project_files/clojure/problem2cl/</guid>
-      <description>1(ns problem2.core) 2 3(def gen-fib 4 (lazy-cat [0 1] (map + (rest gen-fib) gen-fib))) 5 6(defn -main 7 [] 8 (println (reduce + (filter even? (take-while (partial &amp;gt; 4000000) gen-fib))))) </description>
+      <description>Clojure was nice for this problem, because you can just concatenate all the terms from gen-fib to form a lazy sequence.
+1(ns problem2.core) 2 3(def gen-fib 4 (lazy-cat [0 1] (map + (rest gen-fib) gen-fib))) 5 6(defn -main 7 [] 8 (println (reduce + (filter even? (take-while (partial &amp;gt; 4000000) gen-fib)))))</description>
     </item>
     
     <item>
@@ -111,16 +114,154 @@ Currently working at Connexta in Phoenix, AZ.</description>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
       <guid>https://www.gabrieljosephvera.com/project_files/perl6/problem2p6/</guid>
-      <description>1say( 1, 1, *+ * ... ^ *&amp;gt; 4000000 ) . grep( *% % 2 ) . sum; </description>
+      <description>1say( 1, 1, *+* ... ^*&amp;gt; 4000000).grep( * %% 2 ).sum; </description>
     </item>
     
     <item>
-      <title>Problem 2 in Perl 6</title>
+      <title>Problem 2 in Ruby</title>
       <link>https://www.gabrieljosephvera.com/project_files/ruby/problem2rb/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
       <guid>https://www.gabrieljosephvera.com/project_files/ruby/problem2rb/</guid>
       <description>1sum_even = 0; 2term_prev = 1; 3term_current = 1; 4loop do 5 if term_current &amp;gt;= 4000000 6 break 7 end 8 temp = term_current; 9 term_current = term_current + term_prev; 10 term_prev = temp; 11 if term_current % 2 == 0 12 sum_even += term_current; 13 end 14end 15puts &amp;#34;#{sum_even}&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>Problem 3</title>
+      <link>https://www.gabrieljosephvera.com/project_files/problem3/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/problem3/</guid>
+      <description>Ruby 1number = 600851475143; 2i = 2; 3max_divisor = 0; 4loop do 5 if i &amp;gt; Integer.sqrt(number) 6 break; 7 end 8 if number % i == 0 9 max_divisor = i; 10 number = number/i; 11 i = 2; 12 else 13 i += 1; 14 end 15end 16puts &amp;#34;#{number}&amp;#34;</description>
+    </item>
+    
+    <item>
+      <title>Problem 3 in Ruby</title>
+      <link>https://www.gabrieljosephvera.com/project_files/ruby/problem3rb/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/ruby/problem3rb/</guid>
+      <description>1number = 600851475143; 2i = 2; 3max_divisor = 0; 4loop do 5 if i &amp;gt; Integer.sqrt(number) 6 break; 7 end 8 if number % i == 0 9 max_divisor = i; 10 number = number/i; 11 i = 2; 12 else 13 i += 1; 14 end 15end 16puts &amp;#34;#{number}&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>Problem 4</title>
+      <link>https://www.gabrieljosephvera.com/project_files/problem4/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/problem4/</guid>
+      <description>Ruby 1num = 999; 2current_palin = 0; 3loop do 4 second_num = 999; 5 loop do 6 current_product = num * second_num; 7 if current_product.to_s.reverse == current_product.to_s 8 if current_palin &amp;lt; current_product 9 current_palin = current_product.to_i; 10 end 11 end 12 second_num -= 1; 13 if second_num &amp;lt; 100 14 break; 15 end 16 end 17 num -= 1; 18 if num &amp;lt; 100 19 break; 20 end 21end 22puts&amp;#34;#{current_palin}&amp;#34;;</description>
+    </item>
+    
+    <item>
+      <title>Problem 4 in Clojure</title>
+      <link>https://www.gabrieljosephvera.com/project_files/clojure/problem4cl/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/clojure/problem4cl/</guid>
+      <description>1(defn is-palindrome? 2 [num] 3 (= (str num) (apply str (reverse (str num))))) 4 5(defn get-val 6 [num] 7 (cond 8 (= (is-palindrome? num) true) num 9 :else 0)) 10 11(defn cart-prod 12 [] 13 (for [x (range 100 1000) 14 y (range 100 1000)] 15 (* x y))) 16 17(defn -main 18 [] 19 (println (apply max (map get-val (cart-prod))))) </description>
+    </item>
+    
+    <item>
+      <title>Problem 4 in Perl 6</title>
+      <link>https://www.gabrieljosephvera.com/project_files/perl6/problem4p6/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/perl6/problem4p6/</guid>
+      <description>1say max ([X*] (100..999, 100..999)).grep: {.flip eq $_} </description>
+    </item>
+    
+    <item>
+      <title>Problem 4 in Ruby</title>
+      <link>https://www.gabrieljosephvera.com/project_files/ruby/problem4rb/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/ruby/problem4rb/</guid>
+      <description>1num = 999; 2current_palin = 0; 3loop do 4 second_num = 999; 5 loop do 6 current_product = num * second_num; 7 if current_product.to_s.reverse == current_product.to_s 8 if current_palin &amp;lt; current_product 9 current_palin = current_product.to_i; 10 end 11 end 12 second_num -= 1; 13 if second_num &amp;lt; 100 14 break; 15 end 16 end 17 num -= 1; 18 if num &amp;lt; 100 19 break; 20 end 21end 22puts&amp;#34;#{current_palin}&amp;#34;; </description>
+    </item>
+    
+    <item>
+      <title>Problem 5</title>
+      <link>https://www.gabrieljosephvera.com/project_files/problem5/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/problem5/</guid>
+      <description>Ruby 1puts&amp;#34;#{(1..20).reduce(1, :lcm)}&amp;#34;
+Perl 6 1say [lcm] ( 1 .. 20 );</description>
+    </item>
+    
+    <item>
+      <title>Problem 5 in Perl 6</title>
+      <link>https://www.gabrieljosephvera.com/project_files/perl6/problem5p6/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/perl6/problem5p6/</guid>
+      <description>1say [lcm] ( 1 .. 20 ); </description>
+    </item>
+    
+    <item>
+      <title>Problem 5 in Ruby</title>
+      <link>https://www.gabrieljosephvera.com/project_files/ruby/problem5rb/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/ruby/problem5rb/</guid>
+      <description>1puts&amp;#34;#{(1..20).reduce(1, :lcm)}&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>Problem 6</title>
+      <link>https://www.gabrieljosephvera.com/project_files/problem6/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/problem6/</guid>
+      <description>Ruby 1sum_squares = 0 2count = 0 3square_sum = 0 4loop do 5 if count == 101 6 break 7 end 8 sum_squares += (count ** 2) 9 square_sum += count 10 count += 1 11end 12puts&amp;#34;#{(square_sum ** 2) - sum_squares}&amp;#34;
+Clojure 1(ns problem6.core) 2 3(defn -main 4 [] 5 (println (- (int (Math/pow (reduce + (range 1 101)) 2)) (int (reduce + (map #(Math/pow % 2) (range 1 101)))))))</description>
+    </item>
+    
+    <item>
+      <title>Problem 6 in Clojure</title>
+      <link>https://www.gabrieljosephvera.com/project_files/clojure/problem6cl/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/clojure/problem6cl/</guid>
+      <description>1(defn -main 2 [] 3 (println (- (int (Math/pow (reduce + (range 1 101)) 2)) (int (reduce + (map #(Math/pow % 2) (range 1 101))))))) </description>
+    </item>
+    
+    <item>
+      <title>Problem 6 in Perl 6</title>
+      <link>https://www.gabrieljosephvera.com/project_files/perl6/problem6p6/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/perl6/problem6p6/</guid>
+      <description>1say ((1..100).sum ** 2) - ((1..100).map(* ** 2).sum) </description>
+    </item>
+    
+    <item>
+      <title>Problem 6 in Ruby</title>
+      <link>https://www.gabrieljosephvera.com/project_files/ruby/problem6rb/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/ruby/problem6rb/</guid>
+      <description>1sum_squares = 0 2count = 0 3square_sum = 0 4loop do 5 if count == 101 6 break 7 end 8 sum_squares += (count ** 2) 9 square_sum += count 10 count += 1 11end 12puts&amp;#34;#{(square_sum ** 2) - sum_squares}&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>Problem 7</title>
+      <link>https://www.gabrieljosephvera.com/project_files/problem7/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/problem7/</guid>
+      <description>Ruby 1counter = 0; 2num = 1; 3loop do 4 prime = true; 5 temp = 2; 6 while temp &amp;lt;= Math.sqrt(num) 7 if num % temp == 0 8 prime = false; 9 break; 10 end 11 temp += 1; 12 end 13 if prime == true 14 counter += 1; 15 end 16 if counter == 10002 17 break; 18 end 19 num += 1; 20end 21puts&amp;#34;#{num}&amp;#34;;
+Clojure 1(ns problem7.</description>
+    </item>
+    
+    <item>
+      <title>Problem 8</title>
+      <link>https://www.gabrieljosephvera.com/project_files/problem8/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/problem8/</guid>
+      <description>Ruby 1data = &amp;#39;&amp;#39; 2f = File.open(&amp;#34;problem8.txt&amp;#34;, &amp;#34;r&amp;#34;) 3 f.each_line do |line| 4 data += line 5 end 6nums = data.chars 7nums = nums.map(&amp;amp;:to_i); 8max = 13; 9min = 0; 10orig_min = 0; 11max_prod = 0; 12while max &amp;lt; nums.length 13 min = orig_min 14 temp_prod = 1; 15 while min != max 16 temp_prod *= nums[min] 17 min+=1 18 end 19 if temp_prod &amp;gt; max_prod 20 max_prod = temp_prod 21 end 22 orig_min+=1 23 max+=1 24end 25puts&amp;#34;#{max_prod}&amp;#34;</description>
     </item>
     
     <item>
@@ -139,17 +280,8 @@ I&amp;rsquo;ve been using it as a way to ramp up my skills in other languages th
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
       <guid>https://www.gabrieljosephvera.com/project_euler_directory/</guid>
-      <description>Problem 1: If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000: Clojure  Perl 6  Ruby 
-Problem 2: Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with 1 and 2, the first 10 terms will be: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, &amp;hellip; By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms: Clojure  Perl 6  Ruby</description>
-    </item>
-    
-    <item>
-      <title>Ruby</title>
-      <link>https://www.gabrieljosephvera.com/project_files/ruby/perl6/</link>
-      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
-      
-      <guid>https://www.gabrieljosephvera.com/project_files/ruby/perl6/</guid>
-      <description>Problem 1</description>
+      <description>Problem 1: If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000: Solution
+Problem 2: Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with 1 and 2, the first 10 terms will be: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, &amp;hellip; By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms: Solution</description>
     </item>
     
     <item>
