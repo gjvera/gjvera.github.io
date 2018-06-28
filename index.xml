@@ -89,6 +89,60 @@ Clojure 1(ns problem1.core) 2 3(defn mod3or5? 4 [x] 5 (cond 6 (= (mod x 3) 0) x 
     </item>
     
     <item>
+      <title>Problem 10</title>
+      <link>https://www.gabrieljosephvera.com/project_files/problem10/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/problem10/</guid>
+      <description>Ruby 1def sum_primes_in_range(num, max) 2 sum = 0 3 loop do 4 if num &amp;gt; max 5 break 6 end 7 prime = true; 8 temp = 2; 9 while temp &amp;lt;= Math.sqrt(num) 10 if num % 2 == 0 11 prime = false; 12 break; 13 end 14 if num % temp == 0 15 prime = false; 16 break; 17 end 18 temp += 1 19 end 20 if prime == true 21 sum += num 22 end 23 num += 1; 24 end 25 sum 26end 27 28a, b, c, d, e, f, g, h= [ 29 Thread.</description>
+    </item>
+    
+    <item>
+      <title>Problem 11</title>
+      <link>https://www.gabrieljosephvera.com/project_files/problem11/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/problem11/</guid>
+      <description>Check back solution in the works.</description>
+    </item>
+    
+    <item>
+      <title>Problem 12</title>
+      <link>https://www.gabrieljosephvera.com/project_files/problem12/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/problem12/</guid>
+      <description>Clojure 1(ns problem12.core) 2 3(defn num-of-divisors [n] 4 (* 2 (count (filter #(= (mod n %) 0) ( range 2 (+ (int (Math/sqrt n)) 1) ) ) ) )) 5 6(defn -main 7 [] 8 (println (first (filter #(&amp;gt; (num-of-divisors % ) 500) (map #(reduce + (range %)) (range))))))</description>
+    </item>
+    
+    <item>
+      <title>Problem 13</title>
+      <link>https://www.gabrieljosephvera.com/project_files/problem13/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/problem13/</guid>
+      <description>Ruby 1 1 data = &amp;#39;&amp;#39; 2 2 sum = 0 3 3 f = File.open(&amp;#34;problem13.txt&amp;#34;, &amp;#34;r&amp;#34;) 4 4 f.each_line do |line| 5 5 sum += line.to_i 6 6 end 7 7 sum = sum.to_s.split(//); 8 8 ans = &amp;#39;&amp;#39; 9 9 for index in 0 ... 10 10 10 ans += sum[index].inspect 11 11 end 12 12 puts&amp;#34;#{ans.tr&amp;#39;&amp;#34;&amp;#39;,&amp;#39;&amp;#39;}&amp;#34;</description>
+    </item>
+    
+    <item>
+      <title>Problem 14</title>
+      <link>https://www.gabrieljosephvera.com/project_files/problem14/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/problem14/</guid>
+      <description>Ruby 1def get_n_chains(orig_start, last) 2 start = orig_start 3 max = 0 4 chain = 0 5 current_chain = 0; 6 loop do 7 if start == last - 1 8 break 9 end 10 current_elem = start 11 chain = 0 12 loop do 13 if current_elem % 2 == 0 14 current_elem = current_elem/2 15 chain += 1 16 if current_elem == 1 17 break 18 end 19 else 20 current_elem = (3*current_elem) + 1 21 chain += 1 22 end 23 end 24 if current_chain &amp;lt; chain 25 current_chain = chain 26 max = start 27 end 28 start = start - 1 29 end 30 return max, current_chain 31end 32 33a, b, c, d, e, f, g= [ 34 Thread.</description>
+    </item>
+    
+    <item>
+      <title>Problem 16</title>
+      <link>https://www.gabrieljosephvera.com/project_files/problem16/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/problem16/</guid>
+      <description>Ruby 1num = 2**1000 2num = num.to_s.split(&amp;#39;&amp;#39;).map(&amp;amp;:to_i) 3result = 0; 4num.each{ |x| 5 result += x 6} 7puts&amp;#34;#{result}&amp;#34;</description>
+    </item>
+    
+    <item>
       <title>Problem 2</title>
       <link>https://www.gabrieljosephvera.com/project_files/problem2/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
@@ -262,6 +316,15 @@ Clojure 1(ns problem7.</description>
       
       <guid>https://www.gabrieljosephvera.com/project_files/problem8/</guid>
       <description>Ruby 1data = &amp;#39;&amp;#39; 2f = File.open(&amp;#34;problem8.txt&amp;#34;, &amp;#34;r&amp;#34;) 3 f.each_line do |line| 4 data += line 5 end 6nums = data.chars 7nums = nums.map(&amp;amp;:to_i); 8max = 13; 9min = 0; 10orig_min = 0; 11max_prod = 0; 12while max &amp;lt; nums.length 13 min = orig_min 14 temp_prod = 1; 15 while min != max 16 temp_prod *= nums[min] 17 min+=1 18 end 19 if temp_prod &amp;gt; max_prod 20 max_prod = temp_prod 21 end 22 orig_min+=1 23 max+=1 24end 25puts&amp;#34;#{max_prod}&amp;#34;</description>
+    </item>
+    
+    <item>
+      <title>Problem 9</title>
+      <link>https://www.gabrieljosephvera.com/project_files/problem9/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project_files/problem9/</guid>
+      <description>Ruby 1m = 2 2break_nested = false; 3loop do 4 if m &amp;gt; 1000 5 break 6 end 7 n = 1 8 loop do 9 if n &amp;gt; m 10 break 11 end 12 a = ((m ** 2) - (n ** 2)) 13 b = (2*m * n) 14 c = (m ** 2 + n ** 2) 15 if a + b + c == 1000 16 puts&amp;#34;#{a*b*c}&amp;#34; 17 break_nested = true; 18 break 19 end 20 n +=1 21 end 22 break if break_nested; 23 m += 1 24end</description>
     </item>
     
     <item>
