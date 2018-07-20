@@ -1,0 +1,260 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="Portfolio Website">
+	<meta name="author" content="Gabriel Vera">
+	<meta name="generator" content="Hugo 0.40.3" />
+	<title>Problem 21 &middot; Gabriel Vera</title>
+	<!-- Stylesheets -->
+	
+	<link rel="stylesheet" href="https://www.gabrieljosephvera.com/css/main.css"/>
+	
+	
+
+	
+
+	<!-- Custom Fonts -->
+	<link href="https://www.gabrieljosephvera.com/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://www.gabrieljosephvera.com/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://www.gabrieljosephvera.com/favicon.ico">
+	
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="js/ie/html5shiv.js"></script>
+	<script src="js/ie/html5shiv.jsrespond.min.js"></script>
+	<![endif]-->
+</head>
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+    <header id="header" class="alt">
+        <a href="https://www.gabrieljosephvera.com/" class="logo"><strong>Gabriel Vera</strong> <span>Portfolio</span></a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+                <li><a href="https://www.gabrieljosephvera.com/">Home</a></li>
+            
+                <li><a href="https://www.gabrieljosephvera.com/project">Projects</a></li>
+            
+                <li><a href="https://www.gabrieljosephvera.com/resume.pdf">Resume</a></li>
+            
+                <li><a href="https://www.gabrieljosephvera.com/school">Education</a></li>
+            
+
+        </ul>
+        <ul class="actions vertical">
+            
+                <li><a href="https://www.gabrieljosephvera.com/" class="button special fit">Get Started</a></li>
+            
+            
+        </ul>
+    </nav>
+
+        <!-- Main -->
+            <div id="main" class="alt">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>Problem 21</h1>
+                            </header>
+                            
+                            <p>Ruby
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 1</span><span style="color:#a6e22e">def</span> <span style="color:#a6e22e">get_proper_divisors</span>(<span style="color:#a6e22e">num</span>)
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 2</span>    <span style="color:#a6e22e">list</span> = (<span style="color:#ae81ff">1.</span>.<span style="color:#a6e22e">num</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>).<span style="color:#a6e22e">to_a</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 3</span>    <span style="color:#a6e22e">divisors</span> = []
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 4</span>    <span style="color:#a6e22e">list</span>.<span style="color:#66d9ef">map</span>{|<span style="color:#a6e22e">n</span>| <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">num</span> <span style="color:#f92672">%</span> <span style="color:#a6e22e">n</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> 
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 5</span>             <span style="color:#a6e22e">divisors</span>.<span style="color:#a6e22e">push</span>(<span style="color:#a6e22e">n</span>)
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 6</span>    <span style="color:#a6e22e">end</span>}
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 7</span>    <span style="color:#a6e22e">divisors</span>.<span style="color:#a6e22e">reduce</span>(:<span style="color:#f92672">+</span>)
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 8</span><span style="color:#a6e22e">end</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 9</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">10</span><span style="color:#a6e22e">def</span> <span style="color:#a6e22e">is_amicable</span>(<span style="color:#a6e22e">num</span>)
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">11</span>    <span style="color:#a6e22e">a</span> = <span style="color:#a6e22e">get_proper_divisors</span>(<span style="color:#a6e22e">num</span>)
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">12</span>    <span style="color:#a6e22e">b</span> = <span style="color:#a6e22e">get_proper_divisors</span>(<span style="color:#a6e22e">a</span>)
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">13</span>    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">!=</span> <span style="color:#a6e22e">b</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">14</span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">b</span> <span style="color:#f92672">==</span> <span style="color:#a6e22e">num</span> 
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">15</span>            <span style="color:#66d9ef">true</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">16</span>        <span style="color:#66d9ef">else</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">17</span>            <span style="color:#66d9ef">false</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">18</span>        <span style="color:#a6e22e">end</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">19</span>    <span style="color:#a6e22e">end</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">20</span><span style="color:#a6e22e">end</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">21</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">22</span><span style="color:#a6e22e">amicable</span> = []
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">23</span>(<span style="color:#ae81ff">220..9999</span>).<span style="color:#a6e22e">to_a</span>.<span style="color:#66d9ef">map</span>{|<span style="color:#a6e22e">n</span>| <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">is_amicable</span>(<span style="color:#a6e22e">n</span>) <span style="color:#f92672">==</span> <span style="color:#66d9ef">true</span> 
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">24</span>                     <span style="color:#a6e22e">amicable</span>.<span style="color:#a6e22e">push</span>(<span style="color:#a6e22e">n</span>)
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">25</span><span style="color:#a6e22e">end</span>}
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">26</span><span style="color:#a6e22e">puts</span> <span style="color:#a6e22e">amicable</span>.<span style="color:#a6e22e">reduce</span>(:<span style="color:#f92672">+</span>)</code></pre></div>
+C
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 1</span><span style="color:#960050;background-color:#1e0010">#</span><span style="color:#a6e22e">include</span>&lt;<span style="color:#a6e22e">stdio</span>.<span style="color:#a6e22e">h</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 2</span><span style="color:#960050;background-color:#1e0010">#</span><span style="color:#a6e22e">include</span>&lt;<span style="color:#a6e22e">math</span>.<span style="color:#a6e22e">h</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 3</span><span style="color:#960050;background-color:#1e0010">#</span><span style="color:#a6e22e">include</span>&lt;<span style="color:#a6e22e">stdlib</span>.<span style="color:#a6e22e">h</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 4</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 5</span><span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">pair_am_num</span>{
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 6</span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">a</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 7</span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">b</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 8</span>    <span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">pair_am_num</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">next</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 9</span>};
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">10</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">11</span><span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">num_exists</span>{
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">12</span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">num</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">13</span>    <span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">num_exists</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">next</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">14</span>};
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">15</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">16</span><span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">pair_am_num</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">head</span> = <span style="color:#a6e22e">NULL</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">17</span><span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">num_exists</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">tracker</span> = <span style="color:#a6e22e">NULL</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">18</span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">d</span>(<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">num</span>){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">19</span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">sum</span> = <span style="color:#ae81ff">0</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">20</span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%d\n&#34;</span>, <span style="color:#a6e22e">num</span>);
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">21</span>    <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">i</span> = <span style="color:#ae81ff">2</span>; <span style="color:#a6e22e">i</span> &lt;<span style="color:#a6e22e">num</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">22</span>        <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">num</span> <span style="color:#f92672">%</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">23</span>            <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;adding %d\n&#34;</span>, <span style="color:#a6e22e">i</span>);
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">24</span>            <span style="color:#a6e22e">sum</span> <span style="color:#f92672">+=</span> <span style="color:#a6e22e">i</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">25</span>        }
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">26</span>    }
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">27</span>     <span style="color:#a6e22e">sum</span><span style="color:#f92672">++</span>; <span style="color:#75715e">//include 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">28</span><span style="color:#75715e"></span>     <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">sum</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">29</span>}
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">30</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">31</span><span style="color:#a6e22e">void</span> <span style="color:#a6e22e">add_to_am_num</span>(<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">a</span>, <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">b</span>){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">32</span>    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">head</span> <span style="color:#f92672">==</span> <span style="color:#a6e22e">NULL</span>){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">33</span>        <span style="color:#a6e22e">head</span> = <span style="color:#a6e22e">malloc</span>(<span style="color:#a6e22e">sizeof</span>(<span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">pair_am_num</span>));
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">34</span>        <span style="color:#a6e22e">head</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">a</span> = <span style="color:#a6e22e">a</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">35</span>        <span style="color:#a6e22e">head</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">b</span> = <span style="color:#a6e22e">b</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">36</span>        <span style="color:#a6e22e">head</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span> = <span style="color:#a6e22e">NULL</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">37</span>    }
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">38</span>    <span style="color:#66d9ef">else</span>{
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">39</span>        <span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">pair_am_num</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">temp</span> = <span style="color:#a6e22e">head</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">40</span>        <span style="color:#a6e22e">while</span>(<span style="color:#a6e22e">temp</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span> <span style="color:#f92672">!=</span> <span style="color:#a6e22e">NULL</span>){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">41</span>            <span style="color:#a6e22e">temp</span> = <span style="color:#a6e22e">temp</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">42</span>        }
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">43</span>        <span style="color:#a6e22e">temp</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span> = <span style="color:#a6e22e">malloc</span>(<span style="color:#a6e22e">sizeof</span>(<span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">pair_am_num</span>));
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">44</span>        <span style="color:#a6e22e">temp</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">a</span> = <span style="color:#a6e22e">a</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">45</span>        <span style="color:#a6e22e">temp</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">b</span> = <span style="color:#a6e22e">b</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">46</span>        <span style="color:#a6e22e">temp</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span> = <span style="color:#a6e22e">NULL</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">47</span>    }
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">48</span>}
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">49</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">50</span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">does_exist</span>(<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">num</span>){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">51</span>    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">tracker</span> <span style="color:#f92672">==</span> <span style="color:#a6e22e">NULL</span>){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">52</span>        <span style="color:#a6e22e">tracker</span> = <span style="color:#a6e22e">malloc</span>(<span style="color:#a6e22e">sizeof</span>(<span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">num_exists</span>));
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">53</span>        <span style="color:#a6e22e">tracker</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">num</span> = <span style="color:#a6e22e">num</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">54</span>        <span style="color:#a6e22e">tracker</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span> = <span style="color:#a6e22e">NULL</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">55</span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">56</span>    }
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">57</span>    <span style="color:#66d9ef">else</span>{
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">58</span>        <span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">num_exists</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">temp</span> = <span style="color:#a6e22e">tracker</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">59</span>        <span style="color:#a6e22e">while</span>(<span style="color:#a6e22e">temp</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span> <span style="color:#f92672">!=</span> <span style="color:#a6e22e">NULL</span>){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">60</span>            <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">temp</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">num</span> <span style="color:#f92672">==</span> <span style="color:#a6e22e">num</span>){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">61</span>                <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">62</span>            }
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">63</span>            <span style="color:#a6e22e">temp</span> = <span style="color:#a6e22e">temp</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">64</span>        } 
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">65</span>        <span style="color:#a6e22e">temp</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span> = <span style="color:#a6e22e">malloc</span>(<span style="color:#a6e22e">sizeof</span>(<span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">num_exists</span>));
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">66</span>        <span style="color:#a6e22e">temp</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span> = <span style="color:#a6e22e">NULL</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">67</span>        <span style="color:#a6e22e">temp</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">num</span> = <span style="color:#a6e22e">num</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">68</span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">69</span>    }
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">70</span>}
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">71</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">72</span><span style="color:#a6e22e">void</span> <span style="color:#a6e22e">get_pairs</span>(){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">73</span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">b</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">74</span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> <span style="color:#a6e22e">a</span> = <span style="color:#ae81ff">1</span>; <span style="color:#a6e22e">a</span> <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">10000</span>; <span style="color:#a6e22e">a</span><span style="color:#f92672">++</span>){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">75</span>        <span style="color:#a6e22e">b</span> = <span style="color:#a6e22e">d</span>(<span style="color:#a6e22e">a</span>);
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">76</span>        <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;a: %d\n\nComparing %d and %d \n&#34;</span>,<span style="color:#a6e22e">a</span>, <span style="color:#a6e22e">b</span>, <span style="color:#a6e22e">d</span>(<span style="color:#a6e22e">b</span>));
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">77</span>        <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">d</span>(<span style="color:#a6e22e">b</span>) <span style="color:#f92672">==</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">does_exist</span>(<span style="color:#a6e22e">a</span>) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">does_exist</span>(<span style="color:#a6e22e">b</span>) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">78</span>            <span style="color:#a6e22e">add_to_am_num</span>(<span style="color:#a6e22e">a</span>, <span style="color:#a6e22e">b</span>);
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">79</span>        }
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">80</span>    }
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">81</span>}
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">82</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">83</span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">get_sum</span>(){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">84</span>    <span style="color:#a6e22e">get_pairs</span>();
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">85</span>    <span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">pair_am_num</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">temp</span> = <span style="color:#a6e22e">head</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">86</span>    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">sum</span> = <span style="color:#ae81ff">0</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">87</span>    <span style="color:#a6e22e">while</span>(<span style="color:#a6e22e">temp</span> <span style="color:#f92672">!=</span> <span style="color:#a6e22e">NULL</span>){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">88</span>        <span style="color:#a6e22e">sum</span> = <span style="color:#a6e22e">sum</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">temp</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">a</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">temp</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">b</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">89</span>        <span style="color:#a6e22e">temp</span> = <span style="color:#a6e22e">temp</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">next</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">90</span>    }
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">91</span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">sum</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">92</span>}
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">93</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">94</span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(){
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">95</span>    <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%d\n\n&#34;</span>, <span style="color:#a6e22e">get_sum</span>());
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">96</span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">97</span>}</code></pre></div></p>
+ 
+                        </div>
+                    </section>
+            <!-- Disqus Inject -->
+                
+            </div>
+            
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+                    <li><a href="https://www.github.com/gjvera" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                
+                    <li><a href="https://www.linkedin.com/in/gabriel-vera" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Gabriel Vera</li>
+                
+            </ul>
+        </div>
+    </footer>
+
+            
+        </div>
+
+    <!-- Scripts -->
+        <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://www.gabrieljosephvera.com/js/jquery.min.js"></script>
+    <script src="https://www.gabrieljosephvera.com/js/jquery.scrolly.min.js"></script>
+    <script src="https://www.gabrieljosephvera.com/js/jquery.scrollex.min.js"></script>
+    <script src="https://www.gabrieljosephvera.com/js/skel.min.js"></script>
+    <script src="https://www.gabrieljosephvera.com/js/util.js"></script>
+
+    
+
+    <!-- Main JS -->
+    <script src="https://www.gabrieljosephvera.com/js/main.js"></script>
+
+    
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-117100442-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+    
+
+    </body>
+</html>

@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Leet Code</title>
+      <link>https://www.gabrieljosephvera.com/project/leet_code/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://www.gabrieljosephvera.com/project/leet_code/</guid>
+      <description>I was recently introduced to Leet Code by a colleague and have taken a liking to it.
+Upon some further research I have learned that is is very prominent for companies to take problems from these in coding interviews. That in combination with the fact that I am trying to learn more languages made me want to try it.
+It&amp;rsquo;s still a work in progress, but I will post solutions as I go through them in various languages.</description>
+    </item>
+    
+    <item>
       <title>Project Euler</title>
       <link>https://www.gabrieljosephvera.com/project/project_euler/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
