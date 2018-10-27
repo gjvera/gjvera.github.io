@@ -2198,10 +2198,10 @@
 		position: relative;
 	}
 
-		.image img {
-            opacity: 0;
-			display: block;
-		}
+		/* .image img { */
+            /* opacity: 0; */
+		/* 	display: block; */
+		/* } */
 
 		/* .image.left, .image.right {
 			max-width: 30%;
@@ -2930,7 +2930,7 @@
 /* Contact Method */
 
 	.contact-method {
-		margin: 0 0 2em 0;
+		margin: 0 0 7em 0;
 		padding-left: 3.25em;
 		position: relative;
 	}
@@ -2967,32 +2967,32 @@
 			background-color: #696969;
 		}
 
-			.spotlights > section > .image {
-				background-position: center center;
-				background-size: cover;
-				border-radius: 0;
-				display: block;
-				position: relative;
-				width: 30%;
-			}
+			/* .spotlights > section > .image { */
+			/* 	background-position: center center; */
+			/* 	background-size: cover; */
+			/* 	border-radius: 0; */
+			/* 	display: block; */
+			/* 	position: relative; */
+			/* 	width: 30%; */
+			/* } */
 
-				.spotlights > section > .image img {
-					border-radius: 0;
-					display: block;
-					width: 100%;
-				}
+			/* 	.spotlights > section > .image img { */
+			/* 		border-radius: 0; */
+			/* 		display: block; */
+			/* 		width: 100%; */
+			/* 	} */
 
-				.spotlights > section > .image:before {
-					background: rgba(36, 41, 67, 0.9);
-					content: '';
-					display: block;
-					height: 100%;
-					left: 0;
-					opacity: 0;
-					position: absolute;
-					top: 0;
-					width: 100%;
-				}
+			/* 	.spotlights > section > .image:before { */
+			/* 		background: rgba(36, 41, 67, 0.9); */
+			/* 		content: ''; */
+			/* 		display: block; */
+			/* 		height: 100%; */
+			/* 		left: 0; */
+			/* 		opacity: 0; */
+			/* 		position: absolute; */
+			/* 		top: 0; */
+			/* 		width: 100%; */
+			/* 	} */
 
 			.spotlights > section > .content {
 				display: -moz-flex;

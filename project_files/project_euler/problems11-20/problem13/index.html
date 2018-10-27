@@ -90,6 +90,12 @@
 <span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">10</span> <span style="color:#ae81ff">10</span>     <span style="color:#a6e22e">ans</span> <span style="color:#f92672">+=</span> <span style="color:#a6e22e">sum</span>[<span style="color:#a6e22e">index</span>].<span style="color:#a6e22e">inspect</span>
 <span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">11</span> <span style="color:#ae81ff">11</span> <span style="color:#a6e22e">end</span>
 <span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">12</span> <span style="color:#ae81ff">12</span> <span style="color:#a6e22e">puts</span><span style="color:#e6db74">&#34;#{ans.tr&#39;&#34;</span><span style="color:#e6db74">&#39;,&#39;</span><span style="color:#960050;background-color:#1e0010">&#39;</span>}<span style="color:#960050;background-color:#1e0010">&#34;</span></code></pre></div></p>
+
+<p>Clojure
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">1</span>(<span style="color:#a6e22e">defn</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">main</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">2</span>  []
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">3</span>  (<span style="color:#a6e22e">println</span> (<span style="color:#a6e22e">subs</span> (<span style="color:#a6e22e">str</span> (<span style="color:#a6e22e">reduce</span> <span style="color:#f92672">+</span> (<span style="color:#66d9ef">map</span> <span style="color:#a6e22e">clojure</span>.<span style="color:#a6e22e">edn</span><span style="color:#f92672">/</span><span style="color:#a6e22e">read</span><span style="color:#f92672">-</span><span style="color:#66d9ef">string</span> (<span style="color:#a6e22e">clojure</span>.<span style="color:#66d9ef">string</span><span style="color:#f92672">/</span><span style="color:#a6e22e">split</span><span style="color:#f92672">-</span><span style="color:#a6e22e">lines</span> (<span style="color:#a6e22e">slurp</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">in</span><span style="color:#f92672">*</span>))))) <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">10</span>)))
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">4</span>  </code></pre></div></p>
  
                         </div>
                     </section>

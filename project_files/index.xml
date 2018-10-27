@@ -81,7 +81,8 @@ Clojure 1(ns problem1.core) 2 3(defn mod3or5? 4 [x] 5 (cond 6 (= (mod x 3) 0) x 
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
       <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems11-20/problem13/</guid>
-      <description>Ruby 1 1 data = &amp;#39;&amp;#39; 2 2 sum = 0 3 3 f = File.open(&amp;#34;problem13.txt&amp;#34;, &amp;#34;r&amp;#34;) 4 4 f.each_line do |line| 5 5 sum += line.to_i 6 6 end 7 7 sum = sum.to_s.split(//); 8 8 ans = &amp;#39;&amp;#39; 9 9 for index in 0 ... 10 10 10 ans += sum[index].inspect 11 11 end 12 12 puts&amp;#34;#{ans.tr&amp;#39;&amp;#34;&amp;#39;,&amp;#39;&amp;#39;}&amp;#34;</description>
+      <description>Ruby 1 1 data = &amp;#39;&amp;#39; 2 2 sum = 0 3 3 f = File.open(&amp;#34;problem13.txt&amp;#34;, &amp;#34;r&amp;#34;) 4 4 f.each_line do |line| 5 5 sum += line.to_i 6 6 end 7 7 sum = sum.to_s.split(//); 8 8 ans = &amp;#39;&amp;#39; 9 9 for index in 0 ... 10 10 10 ans += sum[index].inspect 11 11 end 12 12 puts&amp;#34;#{ans.tr&amp;#39;&amp;#34;&amp;#39;,&amp;#39;&amp;#39;}&amp;#34;
+Clojure 1(defn -main 2 [] 3 (println (subs (str (reduce + (map clojure.</description>
     </item>
     
     <item>
