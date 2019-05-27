@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="description" content="Portfolio Website">
 	<meta name="author" content="Gabriel Vera">
-	<meta name="generator" content="Hugo 0.46" />
+	<meta name="generator" content="Hugo 0.55.6" />
 	<title>String to Integer &middot; Gabriel Vera</title>
 	<!-- Stylesheets -->
 	
@@ -78,43 +78,43 @@
                             </header>
                             
                             <p>Python
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 1</span><span style="color:#a6e22e">class</span> <span style="color:#a6e22e">Solution</span>:
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 2</span>    <span style="color:#a6e22e">def</span> <span style="color:#a6e22e">myAtoi</span>(<span style="color:#a6e22e">self</span>, <span style="color:#a6e22e">str</span>):
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 3</span>        <span style="color:#e6db74">&#34;&#34;&#34;
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 4</span><span style="color:#e6db74">        :type str: str
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 5</span><span style="color:#e6db74">        :rtype: int
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 6</span><span style="color:#e6db74">        &#34;&#34;&#34;</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 7</span>        <span style="color:#a6e22e">str</span> = <span style="color:#a6e22e">str</span>.<span style="color:#a6e22e">strip</span>()
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 8</span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">str</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;&#34;</span>:
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 9</span>            <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">10</span>        <span style="color:#a6e22e">ans</span> = <span style="color:#e6db74">&#34;&#34;</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">11</span>        <span style="color:#a6e22e">negative</span> = <span style="color:#a6e22e">False</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">12</span>        <span style="color:#a6e22e">i</span> = <span style="color:#ae81ff">0</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">13</span>        <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">str</span>[<span style="color:#a6e22e">i</span>] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;-&#34;</span> <span style="color:#a6e22e">or</span> <span style="color:#a6e22e">str</span>[<span style="color:#a6e22e">i</span>] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;+&#34;</span>) <span style="color:#a6e22e">and</span> len(<span style="color:#a6e22e">str</span>) <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>:
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">14</span>            <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">15</span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">str</span>[<span style="color:#a6e22e">i</span>] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;-&#34;</span>:
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">16</span>            <span style="color:#a6e22e">negative</span> = <span style="color:#a6e22e">True</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">17</span>            <span style="color:#a6e22e">i</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">18</span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">str</span>[<span style="color:#a6e22e">i</span>] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;+&#34;</span>:
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">19</span>            <span style="color:#a6e22e">i</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">20</span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">i</span> &gt; <span style="color:#ae81ff">1</span>:
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">21</span>            <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">22</span>        <span style="color:#a6e22e">no_whitespace</span> = <span style="color:#a6e22e">False</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">23</span>        <span style="color:#a6e22e">while</span> <span style="color:#a6e22e">i</span> &lt; len(<span style="color:#a6e22e">str</span>) <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">str</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">isdigit</span>() <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">not</span> <span style="color:#a6e22e">no_whitespace</span>:
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">24</span>            <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">no_whitespace</span>:
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">25</span>                <span style="color:#66d9ef">break</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">26</span>            <span style="color:#a6e22e">ans</span><span style="color:#f92672">+=</span><span style="color:#a6e22e">str</span>[<span style="color:#a6e22e">i</span>]
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">27</span>            <span style="color:#a6e22e">i</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">28</span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">ans</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;&#34;</span>:
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">29</span>            <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">30</span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">negative</span> <span style="color:#f92672">==</span> <span style="color:#a6e22e">True</span>:
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">31</span>            <span style="color:#66d9ef">if</span> (int(<span style="color:#a6e22e">ans</span>) <span style="color:#f92672">*</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) &lt; <span style="color:#f92672">-</span><span style="color:#ae81ff">2147483648</span>:
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">32</span>                <span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">2147483648</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">33</span>            <span style="color:#66d9ef">return</span> (int(<span style="color:#a6e22e">ans</span>) <span style="color:#f92672">*</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">34</span>        <span style="color:#66d9ef">if</span> int(<span style="color:#a6e22e">ans</span>) &gt; <span style="color:#ae81ff">2147483647</span>:
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">35</span>            <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">2147483647</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">36</span>        <span style="color:#66d9ef">else</span>:
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">37</span>            <span style="color:#66d9ef">return</span> int(<span style="color:#a6e22e">ans</span>)</code></pre></div></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span style="color:#a6e22e">class</span> <span style="color:#a6e22e">Solution</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span>    <span style="color:#a6e22e">def</span> <span style="color:#a6e22e">myAtoi</span>(<span style="color:#a6e22e">self</span>, <span style="color:#a6e22e">str</span>):
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span>        <span style="color:#e6db74">&#34;&#34;&#34;
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span style="color:#e6db74">        :type str: str
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span style="color:#e6db74">        :rtype: int
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span style="color:#e6db74">        &#34;&#34;&#34;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span>        <span style="color:#a6e22e">str</span> = <span style="color:#a6e22e">str</span>.<span style="color:#a6e22e">strip</span>()
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">str</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;&#34;</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span>            <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span>        <span style="color:#a6e22e">ans</span> = <span style="color:#e6db74">&#34;&#34;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span>        <span style="color:#a6e22e">negative</span> = <span style="color:#a6e22e">False</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span>        <span style="color:#a6e22e">i</span> = <span style="color:#ae81ff">0</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span>        <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">str</span>[<span style="color:#a6e22e">i</span>] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;-&#34;</span> <span style="color:#a6e22e">or</span> <span style="color:#a6e22e">str</span>[<span style="color:#a6e22e">i</span>] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;+&#34;</span>) <span style="color:#a6e22e">and</span> len(<span style="color:#a6e22e">str</span>) <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span>            <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15</span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">str</span>[<span style="color:#a6e22e">i</span>] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;-&#34;</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16</span>            <span style="color:#a6e22e">negative</span> = <span style="color:#a6e22e">True</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17</span>            <span style="color:#a6e22e">i</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18</span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">str</span>[<span style="color:#a6e22e">i</span>] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;+&#34;</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19</span>            <span style="color:#a6e22e">i</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20</span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">i</span> &gt; <span style="color:#ae81ff">1</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21</span>            <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22</span>        <span style="color:#a6e22e">no_whitespace</span> = <span style="color:#a6e22e">False</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23</span>        <span style="color:#a6e22e">while</span> <span style="color:#a6e22e">i</span> &lt; len(<span style="color:#a6e22e">str</span>) <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">str</span>[<span style="color:#a6e22e">i</span>].<span style="color:#a6e22e">isdigit</span>() <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">not</span> <span style="color:#a6e22e">no_whitespace</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24</span>            <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">no_whitespace</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25</span>                <span style="color:#66d9ef">break</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26</span>            <span style="color:#a6e22e">ans</span><span style="color:#f92672">+=</span><span style="color:#a6e22e">str</span>[<span style="color:#a6e22e">i</span>]
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27</span>            <span style="color:#a6e22e">i</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28</span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">ans</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;&#34;</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29</span>            <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30</span>        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">negative</span> <span style="color:#f92672">==</span> <span style="color:#a6e22e">True</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31</span>            <span style="color:#66d9ef">if</span> (int(<span style="color:#a6e22e">ans</span>) <span style="color:#f92672">*</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) &lt; <span style="color:#f92672">-</span><span style="color:#ae81ff">2147483648</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32</span>                <span style="color:#66d9ef">return</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">2147483648</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33</span>            <span style="color:#66d9ef">return</span> (int(<span style="color:#a6e22e">ans</span>) <span style="color:#f92672">*</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34</span>        <span style="color:#66d9ef">if</span> int(<span style="color:#a6e22e">ans</span>) &gt; <span style="color:#ae81ff">2147483647</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35</span>            <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">2147483647</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36</span>        <span style="color:#66d9ef">else</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37</span>            <span style="color:#66d9ef">return</span> int(<span style="color:#a6e22e">ans</span>)</code></pre></div></p>
  
                         </div>
                     </section>
@@ -159,7 +159,7 @@
     <script src="https://www.gabrieljosephvera.com/js/main.js"></script>
 
     
-<script>
+<script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;

@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.gabrieljosephvera.com/categories/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gabrieljosephvera.com/school/asu/</loc>
     <lastmod>2017-10-31T21:28:43-05:00</lastmod>
   </url>
@@ -28,6 +34,18 @@
   </url>
   
   <url>
+    <loc>https://www.gabrieljosephvera.com/categories/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gabrieljosephvera.com/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gabrieljosephvera.com/project/leet_code/</loc>
     <lastmod>2017-10-31T21:28:43-05:00</lastmod>
   </url>
@@ -45,6 +63,12 @@
   <url>
     <loc>https://www.gabrieljosephvera.com/project_files/leetcode/palindrome_number/</loc>
     <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.gabrieljosephvera.com/post/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -263,6 +287,18 @@
   </url>
   
   <url>
+    <loc>https://www.gabrieljosephvera.com/project_files/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.gabrieljosephvera.com/project/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.gabrieljosephvera.com/project_files/leetcode/remove-nth-node-from-end-of-list/</loc>
     <lastmod>2017-10-31T21:28:43-05:00</lastmod>
   </url>
@@ -270,6 +306,12 @@
   <url>
     <loc>https://www.gabrieljosephvera.com/project_files/leetcode/reverse_integer/</loc>
     <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.gabrieljosephvera.com/school/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -290,48 +332,6 @@
   <url>
     <loc>https://www.gabrieljosephvera.com/project/website/</loc>
     <lastmod>2017-10-31T21:28:43-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.gabrieljosephvera.com/categories/</loc>
-    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gabrieljosephvera.com/categories/</loc>
-    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gabrieljosephvera.com/</loc>
-    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gabrieljosephvera.com/post/</loc>
-    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gabrieljosephvera.com/project_files/</loc>
-    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gabrieljosephvera.com/project/</loc>
-    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.gabrieljosephvera.com/school/</loc>
-    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

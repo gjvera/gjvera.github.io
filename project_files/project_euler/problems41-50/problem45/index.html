@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="description" content="Portfolio Website">
 	<meta name="author" content="Gabriel Vera">
-	<meta name="generator" content="Hugo 0.46" />
+	<meta name="generator" content="Hugo 0.55.6" />
 	<title>Problem 45 &middot; Gabriel Vera</title>
 	<!-- Stylesheets -->
 	
@@ -78,21 +78,21 @@
                             </header>
                             
                             <p>Python 3
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 1</span><span style="color:#a6e22e">def</span> <span style="color:#a6e22e">gen_pent_num</span>(<span style="color:#a6e22e">num</span>):
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 2</span>    <span style="color:#66d9ef">return</span> (<span style="color:#a6e22e">num</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">3</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">num</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>))<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 3</span><span style="color:#a6e22e">def</span> <span style="color:#a6e22e">gen_hex_num</span>(<span style="color:#a6e22e">num</span>):
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 4</span>    <span style="color:#66d9ef">return</span> (<span style="color:#a6e22e">num</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">2</span><span style="color:#f92672">*</span><span style="color:#a6e22e">num</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>))
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 5</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 6</span><span style="color:#a6e22e">pent_num</span> = <span style="color:#a6e22e">list</span>()
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 7</span><span style="color:#a6e22e">hex_num</span> = <span style="color:#a6e22e">list</span>()
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 8</span>
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79"> 9</span><span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#a6e22e">in</span> <span style="color:#66d9ef">range</span>(<span style="color:#ae81ff">1000</span>, <span style="color:#ae81ff">55000</span>):
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">10</span>    <span style="color:#a6e22e">pent_num</span>.append(<span style="color:#a6e22e">gen_pent_num</span>(<span style="color:#a6e22e">i</span>))
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">11</span>    <span style="color:#a6e22e">hex_num</span>.append(<span style="color:#a6e22e">gen_hex_num</span>(<span style="color:#a6e22e">i</span>))
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">12</span><span style="color:#66d9ef">for</span> <span style="color:#a6e22e">num</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">pent_num</span>:
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">13</span>    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">num</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">hex_num</span>:
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">14</span>        print(int(<span style="color:#a6e22e">num</span>))
-<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7c7c79">15</span>        <span style="color:#a6e22e">exit</span>()</code></pre></div></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span style="color:#a6e22e">def</span> <span style="color:#a6e22e">gen_pent_num</span>(<span style="color:#a6e22e">num</span>):
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span>    <span style="color:#66d9ef">return</span> (<span style="color:#a6e22e">num</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">3</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">num</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>))<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span style="color:#a6e22e">def</span> <span style="color:#a6e22e">gen_hex_num</span>(<span style="color:#a6e22e">num</span>):
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span>    <span style="color:#66d9ef">return</span> (<span style="color:#a6e22e">num</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">2</span><span style="color:#f92672">*</span><span style="color:#a6e22e">num</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>))
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span style="color:#a6e22e">pent_num</span> = <span style="color:#a6e22e">list</span>()
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span style="color:#a6e22e">hex_num</span> = <span style="color:#a6e22e">list</span>()
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#a6e22e">in</span> <span style="color:#66d9ef">range</span>(<span style="color:#ae81ff">1000</span>, <span style="color:#ae81ff">55000</span>):
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span>    <span style="color:#a6e22e">pent_num</span>.append(<span style="color:#a6e22e">gen_pent_num</span>(<span style="color:#a6e22e">i</span>))
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span>    <span style="color:#a6e22e">hex_num</span>.append(<span style="color:#a6e22e">gen_hex_num</span>(<span style="color:#a6e22e">i</span>))
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span style="color:#66d9ef">for</span> <span style="color:#a6e22e">num</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">pent_num</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span>    <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">num</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">hex_num</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span>        print(int(<span style="color:#a6e22e">num</span>))
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15</span>        <span style="color:#a6e22e">exit</span>()</code></pre></div></p>
  
                         </div>
                     </section>
@@ -137,7 +137,7 @@
     <script src="https://www.gabrieljosephvera.com/js/main.js"></script>
 
     
-<script>
+<script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
