@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gabriel Vera</title>
-    <link>https://www.gabrieljosephvera.com/</link>
+    <link>https://gabrieljvera.com/</link>
     <description>Recent content on Gabriel Vera</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Oct 2017 21:28:43 -0500</lastBuildDate>
     
-	<atom:link href="https://www.gabrieljosephvera.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gabrieljvera.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1 Arizona State University</title>
-      <link>https://www.gabrieljosephvera.com/school/asu/</link>
+      <link>https://gabrieljvera.com/school/asu/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/school/asu/</guid>
+      <guid>https://gabrieljvera.com/school/asu/</guid>
       <description>I transferred to Arizona State University in Fall of 2015. I picked ASU over a couple schools that I had gotten into including UCSD and UCSC. ASU was certainly a huge change from SCC escpecially since I had moved here from California and it was the first time I had been away from my family. However, I did come here with my best friend from high school so that definitely made the process easier for me.</description>
     </item>
     
     <item>
       <title>2 Santiago Canyon College</title>
-      <link>https://www.gabrieljosephvera.com/school/santiago/</link>
+      <link>https://gabrieljvera.com/school/santiago/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/school/santiago/</guid>
+      <guid>https://gabrieljvera.com/school/santiago/</guid>
       <description>I went to Santiago Canyon College for 3 years after getting out of high school. Getting the classes I needed to transfer proved difficult given the volume of students that attended.
 One of the major difficulties I had was getting into the programming and physics classes that were required to transer. There was only one professor at the time teaching C++ class required to transer, and his class filled up really quick.</description>
     </item>
     
     <item>
       <title>3 Esperanza High School</title>
-      <link>https://www.gabrieljosephvera.com/school/esperanza/</link>
+      <link>https://gabrieljvera.com/school/esperanza/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/school/esperanza/</guid>
+      <guid>https://gabrieljvera.com/school/esperanza/</guid>
       <description>I went to Esperanza from Fall 2008 to Spring 2012. My first experience of high school was joining the football team, and meeting many new people.
 School went pretty well, but was fairly challenging due to the amount of time that was required from football. Over time I realized the sport wasn&amp;rsquo;t for me. Not due to the challenge of the sport, but just didn&amp;rsquo;t really fit for me.
 After my last season of football my sophomore year I joined the track team.</description>
@@ -43,29 +43,29 @@ After my last season of football my sophomore year I joined the track team.</des
     
     <item>
       <title>About Me</title>
-      <link>https://www.gabrieljosephvera.com/post/about_me/</link>
+      <link>https://gabrieljvera.com/post/about_me/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/post/about_me/</guid>
+      <guid>https://gabrieljvera.com/post/about_me/</guid>
       <description>Meticulous Computer Software Engineer whose passions include developing software that improves current processes. Possesses practical knowledge in the design and implementation of software. Consistently meets deadlines and delivers high quality solutions. Enjoys learning and self guided research into programming related topics.
 Currently working as a scrum master and software engineer at Connexta in Phoenix, AZ.</description>
     </item>
     
     <item>
       <title>Add Two Numbers</title>
-      <link>https://www.gabrieljosephvera.com/project_files/leetcode/add_two_numbers/</link>
+      <link>https://gabrieljvera.com/project_files/leetcode/add_two_numbers/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/leetcode/add_two_numbers/</guid>
+      <guid>https://gabrieljvera.com/project_files/leetcode/add_two_numbers/</guid>
       <description>C 1/*Definition for singly-linked list. 2struct ListNode { 3int val; 4struct ListNode *next; 5};*/ 6void add_num_to_list(struct ListNode ** res, int num){ 7 printf(&amp;#34;%d\n&amp;#34;, num); 8 if(*res == NULL){ 9 (*res) = malloc(sizeof(struct ListNode)); 10 (*res)-&amp;gt;val = num; 11 (*res)-&amp;gt;next = NULL; 12 } 13 else{ 14 struct ListNode * temp = *res; 15 while(temp-&amp;gt;next != NULL){ 16 temp = temp-&amp;gt;next; 17 } 18 temp-&amp;gt;next = malloc(sizeof(struct ListNode)); 19 temp-&amp;gt;next-&amp;gt;val = num; 20 temp-&amp;gt;next-&amp;gt;next = NULL; 21 } 22} 23 24struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) { 25 struct ListNode * temp1 = l1; 26 struct ListNode * temp2 = l2; 27 struct ListNode * ans = NULL; 28 char * num1 = &amp;#34;&amp;#34;; 29 char * num2 = &amp;#34;&amp;#34;; 30 int carry = 0; 31 int num; 32 int i = 0; 33 while (temp1 !</description>
     </item>
     
     <item>
       <title>Leet Code</title>
-      <link>https://www.gabrieljosephvera.com/project/leet_code/</link>
+      <link>https://gabrieljvera.com/project/leet_code/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project/leet_code/</guid>
+      <guid>https://gabrieljvera.com/project/leet_code/</guid>
       <description>I was recently introduced to Leet Code by a colleague and have taken a liking to it.
 Upon some further research I have learned that is is very prominent for companies to take problems from these in coding interviews. That in combination with the fact that I am trying to learn more languages made me want to try it.
 It&amp;rsquo;s still a work in progress, but I will post solutions as I go through them in various languages.</description>
@@ -73,424 +73,424 @@ It&amp;rsquo;s still a work in progress, but I will post solutions as I go throu
     
     <item>
       <title>Leet Code Problems</title>
-      <link>https://www.gabrieljosephvera.com/leet_code_directory/</link>
+      <link>https://gabrieljvera.com/leet_code_directory/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/leet_code_directory/</guid>
+      <guid>https://gabrieljvera.com/leet_code_directory/</guid>
       <description>Two Sum Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice.Solution
 Add Two NumbersYou are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit.</description>
     </item>
     
     <item>
       <title>Letter Combinations of a Phone Number</title>
-      <link>https://www.gabrieljosephvera.com/project_files/leetcode/letter_combinations_phone_number/</link>
+      <link>https://gabrieljvera.com/project_files/leetcode/letter_combinations_phone_number/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/leetcode/letter_combinations_phone_number/</guid>
+      <guid>https://gabrieljvera.com/project_files/leetcode/letter_combinations_phone_number/</guid>
       <description>Python 1from itertools import product 2class Solution: 3 def get_letters(self, x): 4 if x == 2: 5 return list(&amp;#34;abc&amp;#34;) 6 elif x == 3: 7 return list(&amp;#34;def&amp;#34;) 8 elif x == 4: 9 return list(&amp;#34;ghi&amp;#34;) 10 elif x == 5: 11 return list(&amp;#34;jkl&amp;#34;) 12 elif x == 6: 13 return list(&amp;#34;mno&amp;#34;) 14 elif x == 7: 15 return list(&amp;#34;pqrs&amp;#34;) 16 elif x == 8: 17 return list(&amp;#34;tuv&amp;#34;) 18 elif x == 9: 19 return list(&amp;#34;wxyz&amp;#34;) 20 21 def letterCombinations(self, digits): 22 &amp;#34;&amp;#34;&amp;#34; 23:type digits: str 24:rtype: List[str] 25&amp;#34;&amp;#34;&amp;#34; 26 if digits == &amp;#34;&amp;#34;: 27 return [] 28 numbers = list(digits) 29 all_letters = [] 30 ans = [] 31 for num in numbers: 32 temp = self.</description>
     </item>
     
     <item>
       <title>Palindrome Number</title>
-      <link>https://www.gabrieljosephvera.com/project_files/leetcode/palindrome_number/</link>
+      <link>https://gabrieljvera.com/project_files/leetcode/palindrome_number/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/leetcode/palindrome_number/</guid>
+      <guid>https://gabrieljvera.com/project_files/leetcode/palindrome_number/</guid>
       <description>Python 1class Solution: 2 def isPalindrome(self, x): 3 &amp;#34;&amp;#34;&amp;#34; 4:type x: int 5:rtype: bool 6&amp;#34;&amp;#34;&amp;#34; 7 if len(str(x)) == 1: 8 return True 9 num = x 10 if num &amp;lt; 0: 11 return False 12 reverse = &amp;#34;&amp;#34; 13 while num != 0: 14 reverse += str((num % 10)) 15 num //= 10 16 if x == int(reverse): 17 return True 18 else: 19 return False</description>
     </item>
     
     <item>
       <title>Problem 1</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem1/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem1/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem1/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem1/</guid>
       <description>Ruby 1sum = 0; 2i = 0; 3loop do 4 if i == 1000 5 break 6 end 7 if i % 3 == 0 || i % 5 == 0 8 sum += i 9 end 10 i += 1 11end 12puts &amp;#34;#{sum}&amp;#34;
 Clojure 1(ns problem1.core) 2 3(defn mod3or5? 4 [x] 5 (cond 6 (= (mod x 3) 0) x 7 (= (mod x 5) 0) x 8 :else 0)) 9 10(defn -main 11 [] 12 (println (reduce + (map mod3or5?</description>
     </item>
     
     <item>
       <title>Problem 10</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem10/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem10/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem10/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem10/</guid>
       <description>Ruby 1def sum_primes_in_range(num, max) 2 sum = 0 3 loop do 4 if num &amp;gt; max 5 break 6 end 7 prime = true; 8 temp = 2; 9 while temp &amp;lt;= Math.sqrt(num) 10 if num % 2 == 0 11 prime = false; 12 break; 13 end 14 if num % temp == 0 15 prime = false; 16 break; 17 end 18 temp += 1 19 end 20 if prime == true 21 sum += num 22 end 23 num += 1; 24 end 25 sum 26end 27 28a, b, c, d, e, f, g, h= [ 29 Thread.</description>
     </item>
     
     <item>
       <title>Problem 11</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems11-20/problem11/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems11-20/problem11/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems11-20/problem11/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems11-20/problem11/</guid>
       <description>Check back solution in the works.</description>
     </item>
     
     <item>
       <title>Problem 12</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems11-20/problem12/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems11-20/problem12/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems11-20/problem12/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems11-20/problem12/</guid>
       <description>Clojure 1(ns problem12.core) 2 3(defn num-of-divisors [n] 4 (* 2 (count (filter #(= (mod n %) 0) ( range 2 (+ (int (Math/sqrt n)) 1) ) ) ) )) 5 6(defn -main 7 [] 8 (println (first (filter #(&amp;gt; (num-of-divisors % ) 500) (map #(reduce + (range %)) (range))))))</description>
     </item>
     
     <item>
       <title>Problem 13</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems11-20/problem13/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems11-20/problem13/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems11-20/problem13/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems11-20/problem13/</guid>
       <description>Ruby 1 1 data = &amp;#39;&amp;#39; 2 2 sum = 0 3 3 f = File.open(&amp;#34;problem13.txt&amp;#34;, &amp;#34;r&amp;#34;) 4 4 f.each_line do |line| 5 5 sum += line.to_i 6 6 end 7 7 sum = sum.to_s.split(//); 8 8 ans = &amp;#39;&amp;#39; 9 9 for index in 0 ... 10 10 10 ans += sum[index].inspect 11 11 end 12 12 puts&amp;#34;#{ans.tr&amp;#39;&amp;#34;&amp;#39;,&amp;#39;&amp;#39;}&amp;#34;
 Clojure 1(defn -main 2 [] 3 (println (subs (str (reduce + (map clojure.</description>
     </item>
     
     <item>
       <title>Problem 14</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems11-20/problem14/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems11-20/problem14/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems11-20/problem14/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems11-20/problem14/</guid>
       <description>Ruby 1def get_n_chains(orig_start, last) 2 start = orig_start 3 max = 0 4 chain = 0 5 current_chain = 0; 6 loop do 7 if start == last - 1 8 break 9 end 10 current_elem = start 11 chain = 0 12 loop do 13 if current_elem % 2 == 0 14 current_elem = current_elem/2 15 chain += 1 16 if current_elem == 1 17 break 18 end 19 else 20 current_elem = (3*current_elem) + 1 21 chain += 1 22 end 23 end 24 if current_chain &amp;lt; chain 25 current_chain = chain 26 max = start 27 end 28 start = start - 1 29 end 30 return max, current_chain 31end 32 33a, b, c, d, e, f, g= [ 34 Thread.</description>
     </item>
     
     <item>
       <title>Problem 16</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems11-20/problem16/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems11-20/problem16/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems11-20/problem16/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems11-20/problem16/</guid>
       <description>Ruby 1num = 2**1000 2num = num.to_s.split(&amp;#39;&amp;#39;).map(&amp;amp;:to_i) 3result = 0; 4num.each{ |x| 5 result += x 6} 7puts&amp;#34;#{result}&amp;#34;</description>
     </item>
     
     <item>
       <title>Problem 19</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems11-20/problem19/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems11-20/problem19/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems11-20/problem19/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems11-20/problem19/</guid>
       <description>C 1#include&amp;lt;stdio.h&amp;gt; 2const int NUM_MONTHS_IN_99_YEARS = 1200; 3struct month{ 4 int num_days; 5}; 6 7int main(){ 8 int upper_bound = 36135; //number of days in 99 years 9 struct month iterator[NUM_MONTHS_IN_99_YEARS]; //number of months in 99 years 10 int month_array = 0; 11 for (int i = 1901; i &amp;lt; 2001; i++){ 12 iterator[month_array].num_days = 31; 13 month_array++; 14 if(i % 4 == 0){ 15 iterator[month_array].num_days = 29; 16 } 17 else{ 18 iterator[month_array].</description>
     </item>
     
     <item>
       <title>Problem 2</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem2/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem2/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem2/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem2/</guid>
       <description>Ruby 1sum_even = 0; 2term_prev = 1; 3term_current = 1; 4loop do 5 if term_current &amp;gt;= 4000000 6 break 7 end 8 temp = term_current; 9 term_current = term_current + term_prev; 10 term_prev = temp; 11 if term_current % 2 == 0 12 sum_even += term_current; 13 end 14end 15puts &amp;#34;#{sum_even}&amp;#34;
 Clojure 1(ns problem2.core) 2;generate a list of the fibonacci numbers 3(def gen-fib 4 (lazy-cat [0 1] (map + (rest gen-fib) gen-fib))) 5 6(defn -main 7 [] 8 (println (reduce + (filter even?</description>
     </item>
     
     <item>
       <title>Problem 20</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems11-20/problem20/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems11-20/problem20/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems11-20/problem20/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems11-20/problem20/</guid>
       <description>Ruby 1puts ((1..100).reduce(:*)).to_s.split(&amp;#39;&amp;#39;).map(&amp;amp;:to_i).reduce(:+) Perl 6 1[+] ([*] (1..100)).split(&amp;#34;&amp;#34;)</description>
     </item>
     
     <item>
       <title>Problem 21</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems21-30/problem21/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems21-30/problem21/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems21-30/problem21/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems21-30/problem21/</guid>
       <description>Ruby 1def get_proper_divisors(num) 2 list = (1..num - 1).to_a 3 divisors = [] 4 list.map{|n| if num % n == 0 5 divisors.push(n) 6 end} 7 divisors.reduce(:+) 8end 9 10def is_amicable(num) 11 a = get_proper_divisors(num) 12 b = get_proper_divisors(a) 13 if a != b 14 if b == num 15 true 16 else 17 false 18 end 19 end 20end 21 22amicable = [] 23(220..9999).to_a.map{|n| if is_amicable(n) == true 24 amicable.</description>
     </item>
     
     <item>
       <title>Problem 22</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems21-30/problem22/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems21-30/problem22/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems21-30/problem22/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems21-30/problem22/</guid>
       <description>Perl6 1my $iterator = 0; 2say [+] slurp.subst(&amp;#39;&amp;#34;&amp;#39;, &amp;#39;&amp;#39;, :g).split(&amp;#34;,&amp;#34;).sort.map(++$iterator * *.comb.map(*.ord-64).sum)</description>
     </item>
     
     <item>
       <title>Problem 23</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems21-30/problem23/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems21-30/problem23/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems21-30/problem23/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems21-30/problem23/</guid>
       <description>C 1#include&amp;lt;stdio.h&amp;gt; 2#include&amp;lt;stdlib.h&amp;gt; 3 4struct sum_nums{ 5 int num; 6 struct sum_nums * next; 7}; 8 9struct abundant_nums{ 10 int abundant_num; 11 struct abundant_nums * next; 12}; 13 14struct abundant_nums * head = NULL; 15struct sum_nums * first = NULL; 16 17void add_to_sum_nums(int num){ 18 if(first == NULL){ 19 first = malloc(sizeof(struct sum_nums)); 20 first-&amp;gt;num = num; 21 first-&amp;gt;next = NULL; 22 } 23 else{ 24 struct sum_nums * temp = first; 25 while(temp-&amp;gt;next !</description>
     </item>
     
     <item>
       <title>Problem 24</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems21-30/problem24/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems21-30/problem24/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems21-30/problem24/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems21-30/problem24/</guid>
       <description>Perl 6 1say (0..9).permutations[999999] Ruby 1puts (0..9).to_a.permutation.to_a[999999]</description>
     </item>
     
     <item>
       <title>Problem 25</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems21-30/problem25/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems21-30/problem25/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems21-30/problem25/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems21-30/problem25/</guid>
       <description>Perl6 1say (1, 1, * + *... *.chars == 1000).elems Clojure 1(def gen-fib 2 (lazy-cat [[0 0N] [1 1N]] (map (fn [[i1 f1] [i2 f2]] [(inc i1) (+ f1 f2)]) (rest gen-fib) gen-fib))) 3 4(defn -main 5 [] 6 (println (first (first (filter #(&amp;gt;= (count (str (last %))) 1000) gen-fib)))))</description>
     </item>
     
     <item>
       <title>Problem 29</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems21-30/problem29/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems21-30/problem29/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems21-30/problem29/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems21-30/problem29/</guid>
       <description>Ruby 1a = 2 2elems = [] 3loop do 4 b = 2 5 if a == 101 6 break 7 end 8 loop do 9 if b == 101 10 break 11 end 12 if elems.include?(a ** b) == false 13 elems.push(a**b) 14 end 15 b += 1 16 end 17 a += 1 18end 19puts elems.size</description>
     </item>
     
     <item>
       <title>Problem 3</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem3/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem3/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem3/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem3/</guid>
       <description>Ruby 1number = 600851475143; 2i = 2; 3max_divisor = 0; 4loop do 5 if i &amp;gt; Integer.sqrt(number) 6 break; 7 end 8 if number % i == 0 9 max_divisor = i; 10 number = number/i; 11 i = 2; 12 else 13 i += 1; 14 end 15end 16puts &amp;#34;#{number}&amp;#34;</description>
     </item>
     
     <item>
       <title>Problem 30</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems21-30/problem30/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems21-30/problem30/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems21-30/problem30/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems21-30/problem30/</guid>
       <description>Perl6 1say [+] (2..350000).grep({([+] $_.comb.map(* ** 5)) == $_}) Ruby 1elems = [] 2(2..500000).map{|n| num = n; n = n.to_s.split(&amp;#39;&amp;#39;).map(&amp;amp;:to_i); 3 sum = 0 4 n.each{|x| sum += x ** 5} 5 if num == sum 6 elems.push(num) 7 end 8} 9puts elems.reduce(:+)</description>
     </item>
     
     <item>
       <title>Problem 34</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems31-40/problem34/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems31-40/problem34/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems31-40/problem34/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems31-40/problem34/</guid>
       <description>Perl6 1say [+] (2..350000).grep({([+] $_.comb.map(* ** 5)) == $_})</description>
     </item>
     
     <item>
       <title>Problem 35</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems31-40/problem35/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems31-40/problem35/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems31-40/problem35/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems31-40/problem35/</guid>
       <description>Ruby 1count = 0 2counter = 1 3 4def prime?(num) 5 if (num % 2).zero? 6 false 7 else 8 iterator = 3 9 while iterator &amp;lt; Math.sqrt(num) 10 false if (num % iterator).zero? 11 iterator += 1 12 end 13 true 14 end 15end 16 17loop do 18 is_circular_prime = true 19 break if counter == 1_000_000 20 puts &amp;#34;Counter: #{counter}&amp;#34; 21 arr = counter.to_s.chars.to_a.permutation.to_a 22 arr.map{ |x| if prime?</description>
     </item>
     
     <item>
       <title>Problem 36</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems31-40/problem36/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems31-40/problem36/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems31-40/problem36/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems31-40/problem36/</guid>
       <description>Python 1def get_bin_num(num): 2 temp_num = num 3 binary = &amp;#34;&amp;#34; 4 while temp_num != 0: 5 binary += (str(temp_num % 2)) 6 temp_num //= 2 7 return binary 8 9def is_palin(num): 10 if num == num[::-1]: 11 return True 12 return False 13 14def main(): 15 sum_palin = 0 16 for i in range(1, 1000000): 17 bin_num = get_bin_num(i) 18 if is_palin(bin_num) and is_palin(str(i)): 19 sum_palin += i 20 print(sum_palin) 21 22if __name__ == &amp;#39;__main__&amp;#39;:main()</description>
     </item>
     
     <item>
       <title>Problem 37</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems31-40/problem37/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems31-40/problem37/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems31-40/problem37/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems31-40/problem37/</guid>
       <description>Python 1import math 2def is_prime(num): 3 if num == 2: 4 return True 5 if num == 1: 6 return False 7 #rule out all even numbers to cut run time 8 if num % 2 == 0: 9 return False 10 for i in range(2, math.ceil(math.sqrt(num)) + 1): 11 if num % i == 0: 12 return False 13 return True 14 15def is_truncatable(num): 16 check_front = str(num) 17 check_back = str(num) 18 test_is_prime = True 19 check_front = check_front[1:] 20 while test_is_prime and check_front !</description>
     </item>
     
     <item>
       <title>Problem 4</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem4/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem4/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem4/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem4/</guid>
       <description>Ruby 1num = 999; 2current_palin = 0; 3loop do 4 second_num = 999; 5 loop do 6 current_product = num * second_num; 7 if current_product.to_s.reverse == current_product.to_s 8 if current_palin &amp;lt; current_product 9 current_palin = current_product.to_i; 10 end 11 end 12 second_num -= 1; 13 if second_num &amp;lt; 100 14 break; 15 end 16 end 17 num -= 1; 18 if num &amp;lt; 100 19 break; 20 end 21end 22puts&amp;#34;#{current_palin}&amp;#34;;</description>
     </item>
     
     <item>
       <title>Problem 40</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems31-40/problem40/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems31-40/problem40/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems31-40/problem40/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems31-40/problem40/</guid>
       <description>Perl6 1my @array = (0, 1 ... 200000)&amp;gt;&amp;gt;.comb.flat; 2say @array[1000000] * @array[1] * @array[10] * @array[100] * @array[1000] * @array[10000] * @array[100000]</description>
     </item>
     
     <item>
       <title>Problem 41</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems41-50/problem41/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems41-50/problem41/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems41-50/problem41/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems41-50/problem41/</guid>
       <description>Perl6 1say (max (1..7).permutations.hyper.grep(*.join.is-prime)).join</description>
     </item>
     
     <item>
       <title>Problem 42</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems41-50/problem42/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems41-50/problem42/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems41-50/problem42/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems41-50/problem42/</guid>
       <description>Python 3 1import fileinput 2 3def gen_n_triangle_numbers(num): 4 return int((num * (num + 1))/2) 5 6def is_triangle_word(word): 7 triangle_nums = list() 8 for i in range(1, 100): 9 triangle_nums.append(gen_n_triangle_numbers(i)) 10 chars = list(word) 11 sum_word = 0 12 for char in chars: 13 sum_word += (ord(char) - 64) 14 iterator = 0 15 found = False 16 while iterator &amp;lt; len(triangle_nums) and not found: 17 if triangle_nums[iterator] == sum_word: 18 found = True 19 return True 20 iterator += 1 21 return False 22 23words = &amp;#34;&amp;#34; 24count = 0 25for line in fileinput.</description>
     </item>
     
     <item>
       <title>Problem 45</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems41-50/problem45/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems41-50/problem45/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems41-50/problem45/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems41-50/problem45/</guid>
       <description>Python 3 1def gen_pent_num(num): 2 return (num * (3 * num - 1))/2 3def gen_hex_num(num): 4 return (num * (2*num -1)) 5 6pent_num = list() 7hex_num = list() 8 9for i in range(1000, 55000): 10 pent_num.append(gen_pent_num(i)) 11 hex_num.append(gen_hex_num(i)) 12for num in pent_num: 13 if num in hex_num: 14 print(int(num)) 15 exit()</description>
     </item>
     
     <item>
       <title>Problem 46</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems41-50/problem46/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems41-50/problem46/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems41-50/problem46/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems41-50/problem46/</guid>
       <description>Perl6 1my @primes = (1..*).grep(*.is-prime); 2my $iterator; 3my $is-square-num; 4my $found; 5sub is-answer($num) { 6 $iterator = 0; 7 $found = True; 8 while @primes[$iterator] &amp;lt; $num { 9 $is-square-num = sqrt(($num - @primes[$iterator])/2); 10 if $is-square-num % 1 == 0 { return False } 11 $iterator += 1; 12 } 13 if $found { return True } 14} 15 16say (33..*).first({ 17 $_ % 2 == 1 and !($_.is-prime) and is-answer($_) 18})</description>
     </item>
     
     <item>
       <title>Problem 48</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems41-50/problem48/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems41-50/problem48/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems41-50/problem48/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems41-50/problem48/</guid>
       <description>Perl6 1say ([+] (1..1000).map({ $_ ** $_ })).sum.comb.tail(10).join;</description>
     </item>
     
     <item>
       <title>Problem 5</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem5/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem5/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem5/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem5/</guid>
       <description>Ruby 1puts&amp;#34;#{(1..20).reduce(1, :lcm)}&amp;#34;
 Perl 6 1say [lcm] ( 1 .. 20 );</description>
     </item>
     
     <item>
       <title>Problem 52</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems51-60/problem52/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems51-60/problem52/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems51-60/problem52/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems51-60/problem52/</guid>
       <description>Perl6 1say (1..*).first({$_.comb.sort.join == (2 * $_).comb.sort.join == (3 * $_).comb.sort.join == (4 * $_).comb.sort.join 2== (5 * $_).comb.sort.join == (6 * $_).comb.sort.join})</description>
     </item>
     
     <item>
       <title>Problem 53</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems51-60/problem53/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems51-60/problem53/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems51-60/problem53/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems51-60/problem53/</guid>
       <description>Perl6 1sub get-combination($n, $r) { 2 my $numerator = [*] (1..$n); 3 my $r-fact = [*] (1..$r); 4 my $diff-fact = [*] (1..($n-$r)); 5 return $numerator/($r-fact * $diff-fact); 6} 7 8my @n = (23..100); 9my $ans = 0; 10for @n -&amp;gt; $this-n { 11 $ans += (1..$this-n).grep({get-combination($this-n, $_) &amp;gt; 1_000_000}).elems; 12} 13say $ans</description>
     </item>
     
     <item>
       <title>Problem 54</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems51-60/problem54/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems51-60/problem54/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems51-60/problem54/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems51-60/problem54/</guid>
       <description>Perl6 1enum Hand-types (High-Card =&amp;gt; 1, One-Pair =&amp;gt; 2, Two-Pair =&amp;gt; 3, Three-Kind =&amp;gt; 4, Staight =&amp;gt; 5, Flush =&amp;gt; 6, 2Full-House =&amp;gt; 7, Four-Kind =&amp;gt; 8, Straight-Flush =&amp;gt; 9, Royal-Flush =&amp;gt; 10); 3enum HIGH-CARDS ( TEN =&amp;gt; 10, JACK =&amp;gt; 11, QUEEN =&amp;gt; 12, KING =&amp;gt; 13, ACE =&amp;gt; 14 ); 4 5sub check-high-card(@nums) { 6 if @nums.contains(&amp;#39;A&amp;#39;) { return ACE.value } 7 elsif @nums.contains(&amp;#39;K&amp;#39;) { return KING.value } 8 elsif @nums.</description>
     </item>
     
     <item>
       <title>Problem 55</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems51-60/problem55/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems51-60/problem55/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems51-60/problem55/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems51-60/problem55/</guid>
       <description>Perl6 1my $num-of-lychrel = 0; 2my $num; 3my $is-lychrel; 4my $count = 0; 5(10..10000).map({ 6 my $num = $_; 7 $is-lychrel = True; 8 $count = 0; 9 while $count &amp;lt; 55 { 10 $num = $num + $num.flip; 11 if $num == $num.flip { $is-lychrel = False } ; 12 $count += 1; 13 } 14 if $is-lychrel { $num-of-lychrel += 1 } ; 15}); 16say $num-of-lychrel;
 Ruby 1def is_palin(num) 2 puts &amp;#34;Checking to see if #{num}&amp;#34; 3 if num.</description>
     </item>
     
     <item>
       <title>Problem 56</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems51-60/problem56/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems51-60/problem56/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems51-60/problem56/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems51-60/problem56/</guid>
       <description>Perl6 1say max ([X**] (1..^100, 1..^100))&amp;gt;&amp;gt;.comb&amp;gt;&amp;gt;.sum</description>
     </item>
     
     <item>
       <title>Problem 59</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems51-60/problem59/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems51-60/problem59/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems51-60/problem59/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems51-60/problem59/</guid>
       <description>Perl6 1my @letters = (97..122).map(*.chr).combinations(3).flatmap(*.permutations).rotor(3); 2my @cipher-text = slurp.split(&amp;#34;,&amp;#34;); 3my $string = &amp;#39;&amp;#39;; 4for @letters -&amp;gt; @letter-combination { 5 $string = ((@letter-combination&amp;gt;&amp;gt;.ord xx *).flat Z+^ @cipher-text)&amp;gt;&amp;gt;.chr.join; 6 last if $string.contains(all &amp;lt;and can he be in was&amp;gt;); 7} 8say $string; 9print &amp;#34;\n\n&amp;#34;; 10say [+] $string.comb&amp;gt;&amp;gt;.ord;</description>
     </item>
     
     <item>
       <title>Problem 6</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem6/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem6/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem6/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem6/</guid>
       <description>Ruby 1sum_squares = 0 2count = 0 3square_sum = 0 4loop do 5 if count == 101 6 break 7 end 8 sum_squares += (count ** 2) 9 square_sum += count 10 count += 1 11end 12puts&amp;#34;#{(square_sum ** 2) - sum_squares}&amp;#34;
 Clojure 1(ns problem6.core) 2 3(defn -main 4 [] 5 (println (- (int (Math/pow (reduce + (range 1 101)) 2)) (int (reduce + (map #(Math/pow % 2) (range 1 101)))))))</description>
     </item>
     
     <item>
       <title>Problem 69</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems61-70/problem69/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems61-70/problem69/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems61-70/problem69/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems61-70/problem69/</guid>
       <description>Perl6 1my @primes = (1..*).grep(*.is-prime); 2my $ans = 1; 3for @primes -&amp;gt; $prime { last if $ans * $prime &amp;gt; 1_000_000 ; $ans *= $prime; } 4say $ans</description>
     </item>
     
     <item>
       <title>Problem 7</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem7/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem7/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem7/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem7/</guid>
       <description>Ruby 1counter = 0; 2num = 1; 3loop do 4 prime = true; 5 temp = 2; 6 while temp &amp;lt;= Math.sqrt(num) 7 if num % temp == 0 8 prime = false; 9 break; 10 end 11 temp += 1; 12 end 13 if prime == true 14 counter += 1; 15 end 16 if counter == 10002 17 break; 18 end 19 num += 1; 20end 21puts&amp;#34;#{num}&amp;#34;;
 Clojure 1(ns problem7.</description>
     </item>
     
     <item>
       <title>Problem 8</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem8/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem8/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem8/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem8/</guid>
       <description>Ruby 1data = &amp;#39;&amp;#39; 2f = File.open(&amp;#34;problem8.txt&amp;#34;, &amp;#34;r&amp;#34;) 3 f.each_line do |line| 4 data += line 5 end 6nums = data.chars 7nums = nums.map(&amp;amp;:to_i); 8max = 13; 9min = 0; 10orig_min = 0; 11max_prod = 0; 12while max &amp;lt; nums.length 13 min = orig_min 14 temp_prod = 1; 15 while min != max 16 temp_prod *= nums[min] 17 min+=1 18 end 19 if temp_prod &amp;gt; max_prod 20 max_prod = temp_prod 21 end 22 orig_min+=1 23 max+=1 24end 25puts&amp;#34;#{max_prod}&amp;#34;</description>
     </item>
     
     <item>
       <title>Problem 9</title>
-      <link>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem9/</link>
+      <link>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem9/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/project_euler/problems1-10/problem9/</guid>
+      <guid>https://gabrieljvera.com/project_files/project_euler/problems1-10/problem9/</guid>
       <description>Ruby 1m = 2 2break_nested = false; 3loop do 4 if m &amp;gt; 1000 5 break 6 end 7 n = 1 8 loop do 9 if n &amp;gt; m 10 break 11 end 12 a = ((m ** 2) - (n ** 2)) 13 b = (2*m * n) 14 c = (m ** 2 + n ** 2) 15 if a + b + c == 1000 16 puts&amp;#34;#{a*b*c}&amp;#34; 17 break_nested = true; 18 break 19 end 20 n +=1 21 end 22 break if break_nested; 23 m += 1 24end</description>
     </item>
     
     <item>
       <title>Project Euler</title>
-      <link>https://www.gabrieljosephvera.com/project/project_euler/</link>
+      <link>https://gabrieljvera.com/project/project_euler/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project/project_euler/</guid>
+      <guid>https://gabrieljvera.com/project/project_euler/</guid>
       <description>A current ongoing project that has piqued my interest is Project Euler . Essentially it&amp;rsquo;s a series of math problems for which you need to devise an algorithm and a program to compute the solution.
 I&amp;rsquo;ve been using it as a way to ramp up my skills in other languages that I am not comfortable with such as, Perl 6 , Clojure , and Ruby . I chose these languages for different reasons.</description>
     </item>
     
     <item>
       <title>Project Euler Problems</title>
-      <link>https://www.gabrieljosephvera.com/project_euler_directory/</link>
+      <link>https://gabrieljvera.com/project_euler_directory/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_euler_directory/</guid>
+      <guid>https://gabrieljvera.com/project_euler_directory/</guid>
       <description>Problems 1-10
 Problem 1 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000: Solution
 Problem 2 Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with 1 and 2, the first 10 terms will be: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, &amp;hellip; By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms: Solution</description>
@@ -498,55 +498,55 @@ Problem 2 Each new term in the Fibonacci sequence is generated by adding the pre
     
     <item>
       <title>Remove Nth Node From End of List</title>
-      <link>https://www.gabrieljosephvera.com/project_files/leetcode/remove-nth-node-from-end-of-list/</link>
+      <link>https://gabrieljvera.com/project_files/leetcode/remove-nth-node-from-end-of-list/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/leetcode/remove-nth-node-from-end-of-list/</guid>
+      <guid>https://gabrieljvera.com/project_files/leetcode/remove-nth-node-from-end-of-list/</guid>
       <description>C 1#include&amp;lt;stdio.h&amp;gt; 2struct ListNode* removeNthFromEnd(struct ListNode* head, int n) { 3 int count = 0; 4 struct ListNode * temp = head; 5 while(temp != NULL){ 6 temp = temp-&amp;gt;next; 7 count++; 8 } 9 if (count == 1 &amp;amp;&amp;amp; n == 1){ 10 return NULL; 11 } 12 count = (count - n); 13 temp = head; 14 while(count != 0){ 15 temp = temp-&amp;gt;next; 16 count--; 17 } 18 if(temp == head &amp;amp;&amp;amp; temp-&amp;gt;next !</description>
     </item>
     
     <item>
       <title>Reverse Integer</title>
-      <link>https://www.gabrieljosephvera.com/project_files/leetcode/reverse_integer/</link>
+      <link>https://gabrieljvera.com/project_files/leetcode/reverse_integer/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/leetcode/reverse_integer/</guid>
+      <guid>https://gabrieljvera.com/project_files/leetcode/reverse_integer/</guid>
       <description>C 1#include&amp;lt;string&amp;gt; 2#include&amp;lt;stdio.h&amp;gt; 3#include&amp;lt;stdlib.h&amp;gt; 4using namespace std; 5class Solution { 6public: 7 int reverse(int x) { 8 if(x == 0 || x &amp;lt; -2147483647 || x &amp;gt; 2147483647){ 9 return 0; 10 } 11 bool negative = false; 12 if(x &amp;lt; 0){ 13 negative = true; 14 x = x * -1; 15 } 16 string ans = &amp;#34;&amp;#34;; 17 while(x != 0){ 18 ans += std::to_string(x%10); 19 x /= 10; 20 } 21 try{ 22 int res = std::stoi(ans); 23 } 24 catch(std::out_of_range&amp;amp; e){ 25 return 0; 26 } 27 if(negative) 28 return std::stoi(ans) * -1; 29 return std::stoi(ans); 30 31 } 32};</description>
     </item>
     
     <item>
       <title>String to Integer</title>
-      <link>https://www.gabrieljosephvera.com/project_files/leetcode/string_to_integer/</link>
+      <link>https://gabrieljvera.com/project_files/leetcode/string_to_integer/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/leetcode/string_to_integer/</guid>
+      <guid>https://gabrieljvera.com/project_files/leetcode/string_to_integer/</guid>
       <description>Python 1class Solution: 2 def myAtoi(self, str): 3 &amp;#34;&amp;#34;&amp;#34; 4:type str: str 5:rtype: int 6&amp;#34;&amp;#34;&amp;#34; 7 str = str.strip() 8 if str == &amp;#34;&amp;#34;: 9 return 0 10 ans = &amp;#34;&amp;#34; 11 negative = False 12 i = 0 13 if (str[i] == &amp;#34;-&amp;#34; or str[i] == &amp;#34;+&amp;#34;) and len(str) == 1: 14 return 0 15 if str[i] == &amp;#34;-&amp;#34;: 16 negative = True 17 i += 1 18 if str[i] == &amp;#34;+&amp;#34;: 19 i += 1 20 if i &amp;gt; 1: 21 return 0 22 no_whitespace = False 23 while i &amp;lt; len(str) and str[i].</description>
     </item>
     
     <item>
       <title>Swap Nodes in Pairs</title>
-      <link>https://www.gabrieljosephvera.com/project_files/leetcode/swap-nodes-in-pairs/</link>
+      <link>https://gabrieljvera.com/project_files/leetcode/swap-nodes-in-pairs/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/leetcode/swap-nodes-in-pairs/</guid>
+      <guid>https://gabrieljvera.com/project_files/leetcode/swap-nodes-in-pairs/</guid>
       <description>C 1struct ListNode* swapPairs(struct ListNode* head) { 2 if (head == NULL || head-&amp;gt;next == NULL){ 3 return head; 4 } 5 struct ListNode * temp = head; 6 int num_to_swap; 7 while(temp != NULL){ 8 if(temp-&amp;gt;next == NULL){ 9 break; 10 } 11 num_to_swap = temp-&amp;gt;val; 12 temp-&amp;gt;val = temp-&amp;gt;next-&amp;gt;val; 13 temp-&amp;gt;next-&amp;gt;val = num_to_swap; 14 temp = temp-&amp;gt;next-&amp;gt;next; 15 } 16 return head; 17}</description>
     </item>
     
     <item>
       <title>Two Sum</title>
-      <link>https://www.gabrieljosephvera.com/project_files/leetcode/two_sum/</link>
+      <link>https://gabrieljvera.com/project_files/leetcode/two_sum/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project_files/leetcode/two_sum/</guid>
+      <guid>https://gabrieljvera.com/project_files/leetcode/two_sum/</guid>
       <description>Python 1class Solution: 2 def twoSum(self, nums, target): 3 &amp;#34;&amp;#34;&amp;#34; 4:type nums: List[int] 5:type target: int 6:rtype: List[int] 7&amp;#34;&amp;#34;&amp;#34; 8 for i in range(0, len(nums)): 9 for j in range(i+1, len(nums)): 10 if (nums[j] == target - nums[i]): 11 return [i, j]</description>
     </item>
     
     <item>
       <title>Website</title>
-      <link>https://www.gabrieljosephvera.com/project/website/</link>
+      <link>https://gabrieljvera.com/project/website/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/project/website/</guid>
+      <guid>https://gabrieljvera.com/project/website/</guid>
       <description>This website is my biggest personal project that I have undertaken.
 It is hosted with Github Pages , which by far was the best option for my purpose. I wanted to have a website where I could showcase some projects that would show my skills and what tools and languages I am currently looking at.
 As Github pages only hosts static sites I had to find the best tool to generate a static site that was presentable.</description>

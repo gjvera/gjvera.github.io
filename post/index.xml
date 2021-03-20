@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Gabriel Vera</title>
-    <link>https://www.gabrieljosephvera.com/post/</link>
+    <link>https://gabrieljvera.com/post/</link>
     <description>Recent content in Posts on Gabriel Vera</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Oct 2017 21:28:43 -0500</lastBuildDate>
     
-	<atom:link href="https://www.gabrieljosephvera.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gabrieljvera.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About Me</title>
-      <link>https://www.gabrieljosephvera.com/post/about_me/</link>
+      <link>https://gabrieljvera.com/post/about_me/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>https://www.gabrieljosephvera.com/post/about_me/</guid>
+      <guid>https://gabrieljvera.com/post/about_me/</guid>
       <description>Meticulous Computer Software Engineer whose passions include developing software that improves current processes. Possesses practical knowledge in the design and implementation of software. Consistently meets deadlines and delivers high quality solutions. Enjoys learning and self guided research into programming related topics.
 Currently working as a scrum master and software engineer at Connexta in Phoenix, AZ.</description>
     </item>
