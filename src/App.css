@@ -1,1 +1,13 @@
+html, body, #root{
+  height: 100%;
+  width: 100%;
+}
+
 @import "tailwindcss";
+
+@theme {
+  --color-blue: #141C35;
+  --color-blue-200: #32C8B2;
+  --color-blue-100: #95E3DE;
+  --color-green: #71F2AC;
+}

@@ -4,6 +4,8 @@ import "./App.css"
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <div className="text-blue-500">FOOBAR</div>
+    <div className="w-full h-full bg-blue">
+      <div className="text-blue-100">FOOBAR</div>
+    </div>
   </React.StrictMode>,
 )
