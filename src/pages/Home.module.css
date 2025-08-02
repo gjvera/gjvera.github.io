@@ -1,0 +1,26 @@
+.box {
+	--b: 3px; /* border thickness */
+	--w: 50px; /* length of each arm */
+	position: relative;
+	padding: 1rem; /* your desired content padding */
+}
+
+.box::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+
+	background:
+		linear-gradient(to right, var(--color-green) var(--w), transparent 0) top
+		left / var(--w) var(--b) no-repeat,
+		linear-gradient(to bottom, var(--color-green) var(--w), transparent 0) top
+		left / var(--b) var(--w) no-repeat,
+		linear-gradient(to left, var(--color-green) var(--w), transparent 0) bottom
+		right / var(--w) var(--b) no-repeat,
+		linear-gradient(to top, var(--color-green) var(--w), transparent 0) bottom
+		right / var(--b) var(--w) no-repeat;
+}
